@@ -1,0 +1,526 @@
+.quoteLink.you:after {
+  content: "(You) ";
+  font-size: 75%;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 812px) {
+  div#federationBox {
+    width: 300px;
+    font-size:80%;
+  }
+}
+
+div#federationBox {
+    background-color: pink;
+	color: #80002c;
+    text-align: center;
+    border: 1px solid #80002c;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+@media only screen and (max-width: 812px) {
+   div#federationBox {
+		background-color: pink;
+		color: #80002c;
+		text-align: center;
+		border: 1px solid #80002c;
+		background-size: auto;
+		vertical-align: middle;
+		width: 300px;
+		margin: auto;
+		font-size:80%;
+   }
+}
+@media only screen and (max-width: 812px) {
+  div#ircBox {
+    width: 300px;
+    font-size:80%;
+  }
+}
+
+div#ircBox {
+    background-color: pink;
+	color: #80002c;
+    text-align: center;
+    border: 1px solid #80002c;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+@media only screen and (max-width: 812px) {
+   div#ircBox {
+		background-color: pink;
+		color: #80002c;
+		text-align: center;
+		border: 1px solid #80002c;
+		background-size: auto;
+		vertical-align: middle;
+		width: 300px;
+		margin: auto;
+		font-size:80%;
+   }
+}
+
+
+/* Small text in post area */
+.small {
+    font-size: 75%;
+    text-decoration: none;
+  }
+  
+  /* "rules" in post area */
+  .small a {
+    color: #80002c;
+    text-decoration: none;
+  }
+  
+  /* "rules" hover in post area */
+  .small a:hover {
+    color: #ff0000;
+  }
+  
+  /* Theme selector */
+  #themeSelector {
+    color: #80002c;
+    background: #ffc0cb;
+    font-size: 100%;
+    border: 1px solid #80002c;
+  }
+    
+  /* Horizontal line */
+  hr {
+    height: 0px;
+    border-width: 2px medium medium;
+    border-style: dashed none none;
+    border-color: #80002c;
+  }
+    
+  /* Links in nav, "hide file", some side catalog text and signs before "Anonymous" */
+  .coloredIcon {
+    color: #80002c;
+    cursor: pointer;
+  }
+  
+  /* nav links and buttons before "Astronaut" hover */
+  .coloredIcon:hover,
+  span.hideButton:hover,
+  span.extraMenuButton:hover,
+  span.watchButton:hover {
+    color: #ff0000;
+    text-shadow: none;
+  }
+  
+  /* Links, includes side catalog text */
+  a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+  
+  /* Mouse hover over elements with <a> tag */
+  a:hover, .glowOnHover:hover {
+    text-shadow: none;
+    color:  #4d4dff;
+  }
+   
+  /* Area for inputing text */ 
+  input, select, textarea {
+    box-shadow: none;
+    border: 1px solid #80002c;
+    border-radius: 0px;
+    background: #ffe6ea;
+    color: #80002c;
+    font-family: 'Hack', monospace, sans-serif;
+    font-size: 80%;
+  }
+  
+  /* Buttons */ 
+  input[type=button], input[type=submit], button, .dropzone, .selectedCell
+    {
+    border: 0px #07371F;
+    border-radius: 0px;
+    background: #ff8095;
+    color: #80002c;
+    padding-left: 0.25em;
+    font-family: 'Hack', monospace, sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+  }
+    
+  /* body styles, inherited by whole page */
+  body {
+    position: relative;
+    color: #80002c;
+    background: #ffccd5;
+    font-family: 'Hack', monospace, sans-serif;
+    font-size: 100%;
+    margin: 0px;
+    /*background-size: 450px 350px;*/
+  }
+    
+  /* header and nav / top of page styles */
+  
+  /* Area around banner */
+  header {
+    width: 50%;
+    margin: 3em auto 0 auto;
+    text-align: center;
+  }
+    
+  /* Navigator bar */
+  nav {
+    height: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffc0cb;
+    box-shadow: 0px 2px 5px;
+    border-bottom: 0px;
+    padding-bottom: 3px;
+    font-size: 70%;
+    text-align: center;
+    z-index: 1;
+  }
+    
+  /* Text in navigator bar */
+  nav span, nav a {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 0.2em;
+  }
+  
+  /* That small logo after "rules" in post area */ 
+  a.rules:after {
+    font-family: Icons;
+    content: "\e052";
+    margin-right: 0.5em;
+    color: #80002c;
+    height: 80%;
+    font-size: 80%;
+    padding-left: 0.25em;
+    vertical-align: middle;
+  }
+    
+  /* markdown */
+  .greenText {
+    color: #789922;
+  }
+    
+  .redText {
+    color: #AF0A0F;
+    font-weight: bold;
+    font-size: 125%;
+  }
+    
+  span.spoiler {
+    background: #000;
+    color: #000;
+    padding: 0 1px;
+  }
+  
+  /* Mouse hover over spoiler text */  
+  .spoiler:hover {
+    color: #80002c;
+    background: none;
+  }
+    
+  /* footer styles */
+  footer {
+    width: 100%;
+    margin: 3em 0px 2em 0px;
+    text-align: center;
+    font-size: 75%;
+  }
+    
+  /* this has to go down here to override anything above it */
+  .hidden {
+    display: none;
+  }
+    
+  #settingsWrapper input.hidden {
+    display: none;
+    box-shadow: none;
+  }
+  
+  /* Settings menu header text */
+  .floatingMenu .headerLabel {
+    font-size: 80%;
+  }
+  
+  /* Floating menu header */
+  .floatingMenu .header, .floatingMenu .headerLabel {
+    cursor: pointer;
+  }
+  
+  /* Settings, post and quick reply fields */
+  #newPostFieldset, #quick-reply table, .modalDecorationPanel,
+  .floatingMenu, #settingsFieldset, .reportFieldset {
+    border: 1px dashed #80002c;
+    background: #ffc0cb;
+  }
+   /* "Show forms" at the end */
+  #showFormsButton {
+    color: #80002c;
+  }
+  
+  /* "/b/ - Random" and "Random" */
+  .boardHeader p#labelName, p#labelDescription {
+    font-size: 200%;
+    color: #80002c;
+    display: inline-block;
+  }
+  
+  /* Posting form labels */
+  #postingForm th{
+    border: 0px;
+    background: #ff8095;
+  }
+  
+  /* Tab titles in settings */
+  .settingsTab {
+    color: #80002c;
+  }
+  
+  /* Selected tab in settings */
+  #selectedTab {
+    text-shadow: none;
+    color: #000;
+  }
+  
+  /* Text areas when clicked on */
+  #postingForm input:focus, #postingForm textarea:focus,
+    .modalDecorationPanel input[type='text']:focus, #settingsMenu input[type='text']:focus,
+    #settingsMenu textarea:focus {
+    box-shadow: none;
+  }
+  
+  /* Side catalog cell */
+  .sideCatalogCell {
+  background: #ffcccb;
+  border: 1px solid #80002c;
+  }
+  
+  /* Side catalog selected cell */
+  .sideCatalogMarkedCell {
+    border: 1px dashed #80002c;
+    background: #ffc0cb;
+  }
+  
+  .sideCatalogMarkedCell:hover {
+    color: #ff0000;
+    text-shadow: none;
+  }
+  
+  /* Settings */
+  .floatingMenu {
+    color: #80002c;
+    box-shadow: 5px 5px 5px;
+  }
+   /* Side catalog */
+  #sideCatalogDiv, a.sideCatalogCell {
+    color: #80002c;
+    background: #ffc0cb;
+  }
+  
+  a.sideCatalogCell:hover {
+    text-shadow: none;
+    color: #ff0000;
+  }
+  
+  /* Also side catalog */
+  #sideCatalog {
+    color: #80002c;
+    background: #ffc0cb;
+  }
+  
+  /* Checkbox(?) */
+  input[type=checkbox].postingCheckbox+label:before {
+    font-family: Icons;
+    content: "\e0db";
+    margin-right: 0.5em;
+    color: #80002c;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+   /* Reply area */
+  .innerPost {
+    border: 1px solid #80002c;
+    background: pink;
+  }
+  
+  /* Focused reply */
+  div.markedPost {
+    border: 1px dashed #80002c;
+  }
+  
+  /* "Open file" */
+  a.nameLink {
+    color: #80002c;
+  }
+  
+  /* Mouse hover "Open file" and "(Hide file)" */
+  a.nameLink:hover,
+  a.hideFileButton:hover {
+    color: #303030;
+    text-shadow: none;
+  }
+  
+  /* Post created time */
+  .labelCreated {
+    color: #80002c;
+    cursor: context-menu;
+  }
+  
+  /* Quotes*/
+  .linkQuote, .linkSelf, .panelBacklinks a,
+  .quoteLink {
+    font-weight: normal;
+    color: #ff0000;
+  }
+  
+  /* Mouse hover quotes */
+  .linkQuote:hover, .linkSelf:hover, .panelBacklinks a:hover,
+  .quoteLink:hover {
+    text-shadow:  none;
+    color: blue;
+  }
+  
+  /* Name with email */
+  a.linkName {
+    color: #009900;
+  }
+  
+  /* Name and mouse hover name*/
+  a.noEmailName,
+  a.noEmailName:hover {
+    cursor: context-menu;
+    color: #b3003e;
+  }
+  
+  /* Subject */
+  span.labelSubject {
+    color: #e60050;
+  }
+  
+  /* Role */
+  span.labelRole:before {
+    color: #ff0000;
+  }
+  
+  /* ==RED TEXT== */
+  .redText {
+    color: #ff0000;
+  }
+  
+  /* Close buttons*/
+  span#closeSettingsMenuButton:hover,
+  span#closeSideCatalogButton:hover,
+  span#closeWatcherMenuButton:hover {
+    color: #80002c;
+  }
+  
+  /* Watched cell subject */
+  label.watchedCellLabel a,
+  span.watchedCellCloseButton:hover {
+    color: #80002c;
+  }
+  
+  /* Watched cell label hover */
+  label.watchedCellLabel a:hover {
+    color: #ff0000;
+  }
+  
+  /* "Manage board" and "moderate thread" */
+  #linkManagement, #linkMod {
+    color: #80002c;
+  }
+  
+  /* "Manage board" and "moderate thread" mouse hover*/
+  #linkManagement:hover, #linkMod:hover {
+    color: #ff0000;
+  }
+  
+  /* "Manage board" and "moderate thread" */
+  #linkModeration {
+    color: #80002c;
+  }
+  
+  /* "Manage board" and "moderate thread" mouse hover*/
+  #linkModeration:hover {
+    color: #ff0000;
+  }
+  
+  span#divPages a {
+    color: #80002c;
+  }
+   /* Page number hover*/
+  span#divPages a:hover {
+    color: #ff0000;
+  }
+   /* Quick reply header*/
+  #quick-reply th {
+    border: none;
+  }
+  
+  a.linkReply {
+    font-weight: normal;
+  }
+
+
+
+
+  /*Unga Bunga*/
+  #divLatestPosts .latestPostCell {
+    background-color: pink;
+    border: 1px solid #80002c;
+  }
+  /*more unga bunga*/
+#settingsMenu {
+    background-color: #ffc0cb;
+    position: fixed;
+    left: 100px;
+    top: 25px;
+    z-index: 100;
+  }
+.markedPost {
+    background: #f88d9f;
+    border: 1px solid #80002c;
+  }
+  
+/*scrollbar because you faggots complained*/
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+  }
+   
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffc0cb;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #ff8095;
+  }
+   
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ff9bab;
+  }
+
+  .catalogCell {
+     border: 1px solid #80002c; 
+     background: pink;
+  }

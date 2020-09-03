@@ -1,0 +1,246 @@
+.quoteLink.you:after {
+  content: "(You) ";
+  font-size: 75%;
+  color: #9befef;
+  text-decoration: none;
+}
+
+
+div#federationBox {
+    background-color: #182f3f;
+    text-align: center;
+    border: 1px solid #82cece;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+@media only screen and (max-width: 812px) {
+  div#federationBox {
+    background-color: #182f3f;
+    text-align: center;
+    border: 1px solid #82cece;
+    background-size: auto;
+    vertical-align: middle;
+    width: 300px;
+    margin: auto;
+    font-size:80%;    
+  }
+}
+div#ircBox {
+    background-color: #182f3f;
+    text-align: center;
+    border: 1px solid #82cece;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+@media only screen and (max-width: 812px) {
+  div#ircBox {
+    background-color: #182f3f;
+    text-align: center;
+    border: 1px solid #82cece;
+    background-size: auto;
+    vertical-align: middle;
+    width: 300px;
+    margin: auto;
+    font-size:80%;    
+  }
+}
+
+
+
+body {
+    background: url(/.static/mushrooms.png);
+    }
+    .labelSubject {
+        color: #46b5b5;
+        font-weight: bold;
+    }
+    .panelBacklinks a {
+        padding-left: 0.5em;
+        color: #9befef;
+        text-decoration: none;
+    }
+    .quoteLink {
+        color: #9befef;
+    }
+    .linkName {
+        font-weight: bold;
+        color: #a0ffff;
+    }
+    #showFormsButton {
+    color: #82cece;
+    }
+    nav {
+    background: #183547;
+    border-bottom: 1px solid #82cece;
+    }
+    .coloredIcon {
+    color: #82cece;
+    }
+    .catalogCell {
+    background: #182f3f;
+    border: 1px solid #82cece;
+    border-radius: 0px;
+    }
+    input, select, textarea {
+    border: 1px double #82cece;
+    background: #182f3f;
+    border-radius: 0px;
+    }
+    input[type=button], input[type=submit], button, .dropzone, .selectedCell
+    {
+    border: 3px double #82cece;
+    background: #182f3f;
+    border-radius: 0px;
+    }
+    #postingForm th {
+    border: 1px solid #82cece;
+    background: #182f3f;
+    border-radius: 0px;
+    }
+    .innerPost, .markedPost {
+    background: #182f3f;
+    border: 1px solid #82cece;
+    border-radius: 0px;
+    }
+    .markedPost, .sideCatalogMarkedCell {
+        background: #14253169;
+    }
+    #newPostFieldset, #quick-reply table, .modalDecorationPanel {
+    border: 1px dashed #00D4FF;
+    }
+    hr {
+    border-color: #00D4FF;
+    }
+    .reportFieldset {
+    border: 1px dashed #00D4FF;
+    }
+    .noEmailName, .noEmailName:hover {
+    color: #98E;
+    }
+    a {
+    color: #82cece;
+    }
+    .sideCatalogCell, .sideCatalogMarkedCell {
+    background: #182f3f;
+    border: 1px solid #82cece;
+    border-radius: 0px;
+    }
+    #divLatestPosts .latestPostCell {
+    background: #182f3f;
+    border: 1px solid #82cece;
+    border-radius: 0px;
+    }
+    span.spoiler {
+      background: teal;
+      color: teal;
+      padding: 0 1px;
+    }
+    .redText {
+      /*  background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet); */
+        background-image: repeating-linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+    /*  background-image: repeating-linear-gradient(90deg, #E40303, #FF8C00, #FFED00, #008026, #004DFF, #750787, #E40303); */
+        background-size: 50% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: rainbow 1s linear infinite;
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    
+    @keyframes rainbow { 
+        0%{background-position:0% 50%}
+        100%{background-position:100% 50%}
+    }
+    
+    @-webkit-keyframes rainbow { 
+        0%{background-position:0% 50%}
+        100%{background-position:100% 50%}
+    }
+    
+    @-moz-keyframes rainbow { 
+        0%{background-position:0% 50%}
+        100%{background-position:100% 50%}
+    }
+    
+    @-ms-keyframes rainbow { 
+        0%{background-position:0% 50%}
+        100%{background-position:100% 50%}     
+    }
+    .floatingMenu {
+      border: 1px dashed #00D4FF;
+      background: #0f202b;
+      padding: 0.25em;
+    }
+    .floatingMenu, #quick-reply table {
+        background: #0f202b;
+    }
+    input[type=checkbox].postingCheckbox+label:before {
+        color: aqua;
+    }
+    a.rules:after {
+    color: #117743;
+    }
+        header {
+             /*  background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet); */
+        background-image: repeating-linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+    /*  background-image: repeating-linear-gradient(90deg, #E40303, #FF8C00, #FFED00, #008026, #004DFF, #750787, #E40303); */
+        background-size: 50% 100%;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: #82cece;
+        animation: rainbow 1s linear infinite;
+        font-size: 75%;
+        text-transform: uppercase;
+    }
+    
+    @keyframes rainbow { 
+        0%{background-position:0% 50%}
+        100%{background-position:100% 50%}
+    }
+    
+    @-webkit-keyframes rainbow { 
+        0%{background-position:0% 50%}
+        100%{background-position:100% 50%}
+    }
+    
+    @-moz-keyframes rainbow { 
+        0%{background-position:0% 50%}
+        100%{background-position:100% 50%}
+    }
+    
+    @-ms-keyframes rainbow { 
+        0%{background-position:0% 50%}
+        100%{background-position:100% 50%}     
+        }
+    .noEmailName, .noEmailName:hover {
+    color: #82cece;
+    }
+
+
+
+/*scrollbar because you faggots complained*/
+  /* width */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+  }
+   
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #0f202b;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #182f3f;
+  }
+   
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #82cece;
+  }

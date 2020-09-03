@@ -1,0 +1,253 @@
+.quoteLink.you:after {
+    content: "(You) ";
+    font-size: 75%;
+    color: #0000EE;
+    text-decoration: none;
+  }
+  
+/*fuck this little bit below*/
+div#federationBox {
+    background-color: #f0e0d6;
+    text-align: center;
+    border: 1px solid #d9bfb7;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+@media only screen and (max-width: 812px) {
+  div#federationBox {
+      background-color: #f0e0d6;
+      text-align: center;
+      border: 1px solid #d9bfb7;
+      border-top: none;
+      border-left: none;
+      background-size: auto;
+      vertical-align: middle;
+      width: 300px;
+      margin: auto;
+      font-size:80%;
+  }
+}
+div#ircBox {
+    background-color: #f0e0d6;
+    text-align: center;
+    border: 1px solid #d9bfb7;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+@media only screen and (max-width: 812px) {
+  div#ircBox {
+      background-color: #f0e0d6;
+      text-align: center;
+      border: 1px solid #d9bfb7;
+      border-top: none;
+      border-left: none;
+      background-size: auto;
+      vertical-align: middle;
+      width: 300px;
+      margin: auto;
+      font-size:80%;
+  }
+}
+
+
+
+a:hover {
+	color:#DD0000;
+}
+a:hover, .glowOnHover:hover {
+    text-shadow: 0px 0px 0px #11774300;
+}
+
+input, select, textarea {
+    border: 1px double #800000;
+    border-radius: 1px;
+    background: #ffffff;
+    color: #7d7d7d;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 80%;
+}
+
+#postingForm th, .modalTableBody th {
+    font-weight: bold;
+    text-align: left;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10pt;
+    cursor: default;
+    border: 0px solid #11774300;
+    border-radius: 0px;
+    background: #ea8;
+}
+
+input[type=button], input[type=submit], button, .dropzone, .selectedCell {
+    border: 0px double #D6DAF0;
+    border-radius: 0px;
+    background: #d0d0d0;
+    color: #000000;
+    padding-left: 0.25em;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+
+.coloredIcon {
+    color: #800000;
+    cursor: pointer;
+}
+
+
+nav {
+    height: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(240,224,214,0.98);
+    border-bottom: 1px solid #b0790a00;
+    box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.20);
+    padding-bottom: 3px;
+    font-size: 70%;
+    text-align: center;
+    z-index: 1;
+}
+
+.boardHeader p {
+    color: maroon;
+}
+
+.topBoards a, #divLatestImages img, #divLatestPosts .latestPostCell, .innerPost, .sideCatalogCell, .markedPost, .sideCatalogMarkedCell, .catalogCell {
+    /*background: rgba(240,224,214,0.98);
+    border-radius: 0px; */
+    background-color: #f0e0d6;
+    border: 1px solid #d9bfb7;
+    border-left: none;
+    border-top: none;
+    /* display: table; */
+    padding: 2px;
+}
+.markedPost, .sideCatalogMarkedCell {
+    background: rgba(240,224,214,0.98);
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    color:#800000;
+    margin: 0px;
+    font-size: 11pt;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    background: #ffe url(/.static/fade.png) top center repeat-x;
+}
+a {
+    color: #00e;
+    text-decoration: none;
+}
+
+nav {
+    height: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #F0E0D6;
+    border-bottom: 1px solid #65448e00;
+    padding-bottom: 3px;
+    font-size: 70%;
+    text-align: center;
+    z-index: 1;
+}
+
+#existingFiltersPanel {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 20em;
+    background: #F0E0D6;
+}
+
+.floatingMenu .header, .floatingMenu .headerLabel {
+    cursor: pointer;
+    background: #F0E0D6;
+}
+
+#newPostFieldset, #quick-reply table, .modalDecorationPanel, .floatingMenu, #settingsFieldset, .reportFieldset {
+    
+}
+.floatingMenu, #quick-reply table {
+    background: #F0E0D6;
+}
+#selectedTab {
+    color: #DD0000;
+    /* text-shadow: 0px 0px 5px #117743; */
+}
+
+hr {
+    height: 0px;
+    border-width: 1px medium medium;
+    border-style: solid none none;
+    border-color: #800000;
+}
+
+input, select, textarea {
+    border: 1px double #777777;
+    border-radius: 0px;
+    background: #ffffff;
+    color: #7d7d7d;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 80%;
+}
+
+.linkQuote {
+    color: #00e;
+    text-decoration: none;
+}
+.linkSelf {
+    color: #00e;
+    text-decoration: none;
+}
+
+.labelSubject{
+    color: #cc1105;
+    font-weight: bold;
+}
+.noEmailName:hover, .noEmailName {
+    color: #117743;
+    text-shadow: none;
+  } 
+  .labelRole {
+    color: #bd0707;
+  }
+  
+  .labelRole:before {
+    font-family: Icons;
+    content: "\e0dc";
+    color: rgb(211, 1, 1);
+  }
+  #settingsMenu {
+    background-color: #F0E0D6;
+}
+.spoiler:hover {
+    color: #800000;
+    background: none;
+}

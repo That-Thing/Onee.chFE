@@ -1,0 +1,270 @@
+/*Used for places where posts are displayed*/
+.hideButton, .embedButton, #closeWatcherMenuButton, .watchButton,
+  .watchedCellCloseButton, .hideFileButton, .extraMenuButton,
+  #closeSettingsMenuButton {
+  margin-left: 0.5em;
+}
+
+.imgExpanded {
+  max-width: 100%;
+}
+
+.imgLink {
+  float: left;
+}
+
+.reportFieldset {
+  margin-top: 1em;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+.labelId {
+  color: #ffffff;
+  padding: 0.25em;
+  border-radius: 5px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.quoteTooltip {
+  position: absolute;
+  display: none
+}
+
+#formMore {
+  cursor: pointer;
+}
+
+.unhideButton, .embedButton {
+  cursor: pointer;
+  color: rgb(119, 119, 119);
+  font-size: 80%;
+}
+
+.hideMenu div, .extraMenu div {
+  font-size: 80%;
+  cursor: pointer;
+}
+
+.hideButton::before {
+  content: '\e017';
+}
+
+.postInfo, .opHead, .divMessage, .panelUploads, .panelIp, .panelProxyIp,
+  .contentOmissionIndicator, .labelOmission, .labelId {
+  font-size: 80%;
+}
+
+.divPosts {
+  margin: 1em 0;
+}
+
+.postCell {
+  margin: 0.25em 0;
+}
+
+.linkName {
+  color: #c5c8c6;
+}
+
+.linkName:hover {
+  color: #81a2be;
+}
+
+.noEmailName, .noEmailName:hover {
+  color: #c5c8c6;
+  text-shadow: none;
+}
+
+.quoteLink {
+  color: #5f89ac;
+}
+
+.linkSelf {
+  color: #ACACAC;
+  text-decoration: none;
+}
+
+.linkSelf:hover {
+  color: #81a2be;
+}
+
+.linkQuote {
+  color: #ACACAC;
+  text-decoration: none;
+}
+
+.linkQuote:hover {
+  color: #81a2be;
+}
+
+.labelSubject {
+  color: #b294bb;
+}
+
+.labelRole {
+  color: #2aa312;
+}
+
+.labelRole:before {
+  font-family: Icons;
+  content: "\e0dc";
+  color: rgb(0, 199, 10);
+}
+
+.divMessage {
+  margin: 1em 1em 1em 3em;
+  margin-bottom: 0.5em;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.multipleUploads .innerPost .divMessage, .multipleUploads .markedPost .divMessage
+  {
+  clear: both;
+}
+
+.divBanMessage {
+  color: #ff0000;
+  font-weight: bold;
+  margin: 1em;
+  font-size: 100%;
+}
+
+.divBanMessage:before {
+  font-family: Icons;
+  content: "\e0d8";
+  color: #A00;
+}
+
+.uploadCell {
+  margin: 0.25em 1em 0.25em 0.5em;
+  float: none;
+}
+
+.uploadCell img {
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+/*Change the dimensions if you wish for larger thumbs*/
+.uploadCell img:not(.imgExpanded) {
+  max-width: 125px;
+  height: 125px;
+  object-fit: contain;
+}
+
+.multipleUploads .opUploadPanel, .multipleUploads .panelUploads {
+  float: left;
+  width: 100%;
+}
+
+.multipleUploads .uploadCell {
+  float: left;
+}
+
+.uploadDetails {
+  margin-bottom: 0.5em;
+}
+
+.originalNameLink {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 155px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.originalNameLink:hover {
+  max-width: 100%;
+}
+
+.opCell {
+  clear: left;
+}
+
+.panelBacklinks a {
+  color: #81a2be;
+  text-decoration: none;
+}
+
+.hideLink {
+  vertical-align: top;
+}
+
+.aa {
+  font-family: Mona, "MS PGothic", "ＭＳ Ｐゴシック", sans-serif;
+  display: block !important;
+  font-size: 12pt;
+  line-height: 1.1;
+}
+
+.labelLastEdit {
+  font-size: 80%;
+  margin-top: 0.75em;
+  margin-left: 0.75em;
+}
+
+.contentOmissionIndicator {
+  margin: 1em 0;
+}
+
+.labelOmission {
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+}
+
+.imgFlag {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+/*Board header*/
+.boardHeader p {
+  color: #c5c8c6;
+}
+
+.boardHeader p#labelName {
+  font-size: 200%;
+  display: inline-block;
+}
+
+.boardHeader #favouriteButton {
+  font-size: 200%;
+}
+
+.boardHeader p#labelDescription {
+  font-size: 100%;
+}
+
+.boardHeader a {
+  font-size: 75%;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.unhideButton {
+  clear: left;
+}
+
+/*Actions form*/
+#threadList {
+  margin: 1em;
+}
+
+#divMessage {
+  text-align: center;
+}
+
+.contentAction label, #divControls label, #transferControls label,
+  #ipDelete label {
+  font-size: 80%;
+}
+
+.extraMenuButton::before {
+  content: '\e02f';
+}
+
+

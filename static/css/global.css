@@ -1,0 +1,2628 @@
+span.rainbow { font-size: 1.25rem; font-weight: bold; animation: rainbow 1.5s linear infinite; padding-left: 4px; }
+
+@keyframes rainbow { 0%, 100% { color: red; text-shadow: -1px 0 0 orange, -2px 0 0 yellow, -3px 0 0 lime, -4px 0 0 green, -5px 0 0 blue, -6px 0 0 magenta; } 14% { color: orange; text-shadow: -1px 0 0 yellow, -2px 0 0 lime, -3px 0 0 green, -4px 0 0 blue, -5px 0 0 magenta, -6px 0 0 red; } 28% { color: yellow; text-shadow: -1px 0 0 lime, -2px 0 0 green, -3px 0 0 blue, -4px 0 0 magenta, -5px 0 0 red, -6px 0 0 orange; } 43% { color: lime; text-shadow: -1px 0 0 green, -2px 0 0 blue, -3px 0 0 magenta, -4px 0 0 red, -5px 0 0 orange, -6px 0 0 yellow; } 57% { color: green; text-shadow: -1px 0 0 blue, -2px 0 0 magenta, -3px 0 0 red, -4px 0 0 orange, -5px 0 0 yellow, -6px 0 0 lime; } 71% { color: blue; text-shadow: -1px 0 0 magenta, -2px 0 0 red, -3px 0 0 orange, -4px 0 0 yellow, -5px 0 0 lime, -6px 0 0 green; } 86% { color: magenta; text-shadow: -1px 0 0 red, -2px 0 0 orange, -3px 0 0 yellow, -4px 0 0 lime, -5px 0 0 green, -6px 0 0 blue; } }
+span.detected { background: #FFF; color: #3060A8; }
+
+
+
+
+.orangeText {
+    color: hotpink;
+}
+.diceDiv::before {
+    content: "Rolled ";
+    color: #b6b6b6;
+    font-style: italic;
+}
+.diceDiv {
+  content: "Rolled ";
+  color: #b6b6b6;
+  font-style: italic;
+}
+.fortuneDiv::before {
+  content: "Fortune: ";
+  color: #b6b6b6;
+  font-style: italic;
+}
+.fortuneDiv{
+  content: "Fortune: ";
+  color: #b6b6b6;
+  font-style: italic;
+}
+.hat {
+  content: url('/.static/partyhat.svg');
+  float: left;
+  display: block;
+  margin-right: -160px;
+  position: relative;
+  top: -50px;
+  left: -35px;
+  transform: rotate(-30deg);
+  max-width: 70px;
+  max-height: 70px;
+}
+
+
+div#federationBox {
+    background-color: #282a2e;
+    text-align: center;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-color: #353535;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+div#ircBox {
+    background-color: #282a2e;
+    text-align: center;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-color: #353535;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+
+
+.labelYou {
+  color: #117743;
+  font-style: italic;
+  margin-right: 0.125rem;
+}
+
+.quoteLink.you:after {
+  content: "(You) ";
+  font-size: 75%;
+  color: #5f89ac;
+  text-decoration: none;
+}
+
+
+.frensBox {
+    margin-bottom: 16px;
+    vertical-align: middle;
+    width: 500px;
+    background-color: #282a2e;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #353535;
+    text-align: center;
+    margin: auto;
+}
+.frensBoxInner {
+	padding-bottom: 15px;
+}
+.frensHeader {
+    background-color: #151515;
+    border-bottom: 1px solid #353535;
+}
+
+.topBoards a, #divLatestImages img, #divLatestPosts .latestPostCell,
+  .innerPost, .sideCatalogCell, .markedPost, .sideCatalogMarkedCell,
+  .catalogCell {
+  background-color: #282A2E;
+  border: 1px solid #353535;
+  border-left: none;
+  border-top: none;
+  /* display: table; */
+  padding: 2px;
+}
+
+.floatingMenu, #quick-reply table {
+    background: #151515;
+}
+
+.markedPost, .sideCatalogMarkedCell {
+  background: rgba(59, 22, 43, 0.4);
+}
+
+#divLatestPosts .latestPostCell, .innerPost, .sideCatalogCell,
+  .markedPost, .sideCatalogMarkedCell, .catalogCell {
+      /* border: 1px solid #117743; */
+}
+
+
+
+.logoImg {
+  height: 250px;
+}
+
+.captchaImage {
+  width: 300px;
+  height: 100px;
+  background-color: white;
+  height: 100px;
+}
+
+.small {
+  font-size: 75%;
+  text-decoration: none;
+}
+
+.clearer {
+  clear: both;
+}
+
+.small a {
+  text-decoration: none;
+}
+
+#panelReferences a {
+  display: block;
+}
+
+.imgLink img, .latestImageCell img, .mediaCell img, .catalogCell img {
+  image-orientation: from-image;
+}
+
+.linkList a {
+  display: block;
+}
+
+#themeSelector {
+  font-size: 100%;
+}
+
+h3, p, label {
+  margin: 0.25em 0;
+}
+
+hr {
+  height: 0px;
+  border-width: 1px medium medium;
+  border-style: solid none none;
+  border-color: #282a2e;
+}
+
+
+#innerUtility {
+  font-size: 80%;
+  margin-right: 1.3em;
+  margin-left: 1.3em;
+}
+#innerUtility.bottom {
+  float: right;
+}
+
+.coloredIcon {
+  color: #81A2BE;
+  cursor: pointer
+}
+
+.coloredIcon::before {
+  font-family: 'Icons';
+}
+
+#navLinkSpan .coloredIcon:before, #navOptionsSpan .coloredIcon:before,
+  #links .coloredIcon:before {
+  margin-right: 0.25em;
+}
+
+a {
+  color: #81A2BE;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5f89ac;
+}
+u {
+  text-decoration: underline;
+}
+
+s {
+  text-decoration: line-through;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+input, select, textarea {
+  border: 0px solid ;
+  background: #282A2E;
+  color: #ACACAC;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 100%;
+}
+
+input[type=button], input[type=submit], button, .dropzone, .selectedCell
+  {
+  border: 0px double #07371F;
+  border-radius: 0px;
+  background: #16171A;
+  color: #ACACAC;
+  padding-left: 0.25em;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+
+.title, .unhideButton {
+  font-weight: bold;
+}
+
+.fileBrowser {
+  background: none;
+}
+
+/* import resources here; external CSS, fonts, etc */
+@font-face {
+  font-family: 'Hack';
+  src: url('../hack-regular-webfont.eot?v=2.018');
+  src: url('../hack-regular-webfont.eot?#iefix&v=2.018')
+    format('embedded-opentype'),
+    url('../hack-regular-webfont.woff2?v=2.018') format('woff2'),
+    url('../hack-regular-webfont.woff?v=2.018') format('woff'),
+    url('../hack-regular-webfont.ttf?v=2.018') format('truetype'),
+    url('../hack-regular-webfont.svg?v=2.018#hackregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Icons';
+  src: url('../open-iconic.eot');
+  src: url('../open-iconic.eot?#iconic-sm') format('embedded-opentype'),
+    url('../open-iconic.woff') format('woff'), url('../open-iconic.ttf')
+    format('truetype'), url('../open-iconic.otf') format('opentype'),
+    url('../open-iconic.svg#iconic-sm') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* body styles, inherited by whole page */
+body {
+  color: #ACACAC;
+  background: #1D1F21;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 100%;
+  margin: 0px;
+}
+
+/* header and nav / top of page styles */
+header {
+  width: 50%;
+  margin: 3em auto 0 auto;
+  text-align: center;
+}
+
+nav {
+  height: 20px;
+  position: fixed;
+  top: 0;
+  padding-top: 5px;
+  width: 100%;
+  background-color: #151515;
+  border-bottom: 0px solid #B0790A;
+  padding-bottom: 3px;
+  font-size: 70%;
+  text-align: center;
+  z-index: 1;
+}
+
+nav span, nav a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 0.2em;
+}
+
+#navLinkSpan {
+  float: left;
+}
+
+#navOptionsSpan {
+  float: right;
+}
+
+#navLinkHome:before {
+  content: "\e082";
+}
+
+#navBoardList:before {
+  content: "\e03a";
+}
+
+#linkOverboard:before, #navOverboard:before {
+  content: "\e007";
+}
+
+#settingsButton:before {
+  content: "\e041";
+}
+
+#navPosting:before {
+  content: "\e09a";
+}
+
+#navCatalog:before {
+  content: "\e072";
+}
+
+#linkRss:before {
+  content: "\e0b7";
+}
+
+#linkTop:before {
+  content: "\e012";
+}
+
+#linkBottom:before {
+  content: "\e00f";
+}
+
+#linkBack:before {
+  content: "\e003";
+}
+
+/* board list */
+#divPages {
+  display: inline-block;
+}
+
+#divPages a {
+  text-decoration: none;
+  padding: 0 0.25em;
+}
+
+a.rules:after {
+  font-family: Icons;
+  content: "\e052";
+  margin-right: 0.5em;
+  color: #117743;
+  height: 80%;
+  font-size: 80%;
+  padding-left: 0.25em;
+  vertical-align: middle;
+}
+
+/* markdown */
+.greenText {
+  color: #789922;
+}
+
+.redText {
+  color: #AF0A0F;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+span.spoiler {
+  background: #000;
+  color: #000;
+  padding: 0 1px;
+}
+
+.spoiler:hover {
+  color: #ACACAC;
+  background: none;
+}
+
+.red {
+  color: #117743;
+}
+
+/* CSS for pages that deal with site and account settings and bans */
+#settingsWrapper {
+  text-align: center;
+  width: 80%;
+  margin: 2em auto;
+}
+
+#settingsFieldset {
+  padding: 1em;
+  display: inline-block;
+  text-align: left;
+}
+
+#settingsWrapper input {
+  display: block;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.banners {
+  margin: 1em;
+  width: auto;
+  padding: 0.5em;
+}
+
+#settingsFieldset textarea {
+  display: block;
+  height: 5em;
+}
+
+#settingsFieldset label {
+  display: block;
+}
+
+#settingsFieldset label input {
+  display: inline-block;
+}
+
+#settingsWrapper .captchaDiv input {
+  display: inline-block;
+}
+
+.subCaptchaDiv {
+  text-align: left;
+}
+
+.captchaTimer {
+  font-size: 80%;
+}
+
+.wide, #postingForm input[type='text'], .modalTableBody input[type='text'],
+  .modalTableBody select, #flagCombobox {
+  width: 100%;
+}
+
+#redirect, #maint {
+  text-align: center;
+}
+
+#labelCaptchaId {
+  color: #ff0000;
+}
+
+#staticPageWrapper {
+  margin: 2em auto;
+  text-align: center;
+}
+
+/* footer styles */
+footer {
+  width: 100%;
+  margin: 3em 0px 2em 0px;
+  text-align: center;
+  font-size: x-small!important;
+}
+
+.innerPost, .markedPost {
+  display: inline-block;
+  overflow: hidden;
+  padding-right: 0.5em;
+  padding-left: 0.25em;
+  padding-top: 0.25em;
+  max-width: 100%;
+}
+
+/* this has to go down here to override anything above it */
+.hidden {
+  display: none;
+}
+
+#settingsWrapper input.hidden {
+  display: none;
+}
+
+.floatingMenu {
+  padding: 0.25em;
+  background: #1d1f21
+}
+
+.floatingMenu .headerLabel {
+  font-size: 80%;
+}
+
+.floatingMenu .header, .floatingMenu .headerLabel {
+  cursor: pointer;
+}
+
+#divRemember input {
+  display: inline;
+}
+
+#sideCatalogDiv {
+  display: block
+}
+
+
+/*Shit to make the website look better on mobile*/
+@media only screen and (max-width: 812px) {
+  #navLinkSpan span, #navOptionsSpan span, legend, #settingsButton, #links span,
+    .hideMobile {
+    display: none;
+  }
+/*Start of retarded shit*/
+  .frensBox {
+    width: 300px!important;
+    font-size: 80%;
+  }
+
+  div#federationBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_yotsuba div#federationBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_yotsubab div#federationBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_yotsubac div#federationBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_meguca div#federationBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_lain div#federationBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_chanpink div#federationBox {
+    width: 300px!important;
+    font-size:80%;
+  }	
+  .theme_cyberpunk div#federationBox {
+    width: 300px!important;
+    font-size:80%;	
+	
+  }  div#ircBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_yotsuba div#ircBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_cyberpunk div#ircBox {
+    width: 300px!important;
+    font-size:80%;
+  }  
+  .theme_yotsubab div#ircBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_yotsubac div#ircBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_meguca div#ircBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_lain div#ircBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+  .theme_chanpink div#ircBox {
+    width: 300px!important;
+    font-size:80%;
+  }
+/* End of retarded shit*/
+  #navLinkSpan a::after, #navOptionsSpan a::after, #links a::after {
+    content: '';
+  }
+  nav {
+    font-size: 70%;
+    height: auto;
+    padding: 2px 2px;
+  }
+  /*Shit hidden in a board/thread*/
+  #quick-reply {
+    display: none;
+  }
+  /*
+  #navCatalog {
+    display: none;
+  }
+  */
+  #linkTop {
+    display: none;
+  }
+  #linkBottom {
+    display: none;
+  }
+  #linkRss {
+    display: none;
+  }
+  #galleryLink {
+    display: none;
+  }
+  #linkBack {
+    display: none;
+  }
+
+  #post-form-inner {
+    display: none;
+  }
+
+  /*Shit hidden in the boards page*/
+  #legend {
+    display: none;
+  }
+
+
+
+
+
+
+  #themeSelector {
+    max-width: 100px;
+  }
+  .logoImg {
+    margin-top: 10px;
+    height: 75px;
+  }
+  .header {
+    text-align: center;
+    width: auto;
+  }
+
+  input, select, textarea {
+    font-size: 100%;
+  }
+  body {
+    font-size: 85%;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+  }
+  .captchaImage {
+    max-width: 100%;
+    height: auto;
+    max-height: 100px;
+  }
+}
+
+
+
+#quick-reply {
+  background: #151515;
+  
+}
+
+
+
+/* Yotsuba B Theme for pages other than the board itself. */
+
+.theme_yotsubab .diceDiv::before {
+  content: "Rolled ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_yotsubab .diceDiv {
+  content: "Rolled ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_yotsubab .fortuneDiv::before {
+  content: "Fortune: ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_yotsubab .fortuneDiv{
+  content: "Fortune: ";
+  color: #363636;
+  font-style: italic;
+}
+
+
+
+.theme_yotsubab .frensBox {
+    margin-bottom: 16px;
+    vertical-align: middle;
+    width: 500px;
+    background-color: #d6daf0;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #b7c5d9;
+    text-align: center;
+    margin: auto;
+}
+.theme_yotsubab .frensBoxInner {
+	padding-bottom: 15px;
+}
+.theme_yotsubab .frensHeader {
+    background-color: #d6daf0;
+    border-bottom: 1px solid #b7c5d9;
+}
+
+
+.theme_yotsubab .federationBox {
+    background-color: #d6daf0;
+    text-align: center;
+    border: 1px solid #b7c5d9;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+.theme_yotsubab div#ircBox {
+    background-color: #d6daf0;
+    text-align: center;
+    border: 1px solid #b7c5d9;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+
+
+@media only screen and (max-width: 812px) {
+  body.theme_yotsubab {
+    font-size: 85%;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+
+
+
+body.theme_yotsubab {
+  background: #eef2ff url(/.static/fade-blue.png) top center repeat-x;
+  color: #000;
+  font-size: 11pt;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
+}
+
+.theme_yotsubab .noEmailName:hover, .theme_yotsubab .noEmailName {
+  color: #117743;
+  text-shadow: none;
+} 
+
+
+
+.theme_yotsubab .markedPost {
+  background: rgba(59, 22, 43, 0.4);
+}
+.theme_yotsubab nav {
+  height: 18px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(214,218,240,0.98);
+  border-bottom: 1px solid #D6DAF0;
+  box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.20);
+  padding-bottom: 3px;
+  font-size: 70%;
+  text-align: center;
+  z-index: 1;
+}
+.theme_yotsubab .topBoards a, .theme_yotsubab #divLatestImages img, .theme_yotsubab #divLatestPosts .latestPostCell, .theme_yotsubab .innerPost, .theme_yotsubab .sideCatalogCell, .theme_yotsubab .markedPost, .theme_yotsubab .sideCatalogMarkedCell, .theme_yotsubab .catalogCell {
+    /* background: #d6daf0;
+    border: 1px solid #b7c5d9; */
+    background-color: #d6daf0;
+    border: 1px solid #b7c5d9;
+    border-left: none;
+    border-top: none;
+    /* display: table; */
+    padding: 2px;
+}
+.theme_yotsubab .floatingMenu, .theme_yotsubab #quick-reply table{
+  cursor: pointer;
+  background: rgba(214,218,240,0.98);
+}
+.theme_yotsubab .markedPost, .theme_yotsubab .sideCatalogMarkedCell {
+  background: #d6daf0;
+  border: 1px solid #b7c5d9;
+}
+.theme_yotsubab .coloredIcon {
+  color: #34345C;
+  cursor: pointer;
+}
+.theme_yotsubab a, .theme_yotsubab a:visited {
+	color: #34345c;
+}
+.theme_yotsubab .unhideButton {
+  color: #000
+}
+.theme_yotsubab input[type=button], .theme_yotsubab input[type=submit], .theme_yotsubab button, .theme_yotsubab .dropzone, .theme_yotsubab .selectedCell {
+  border: 0px double #D6DAF0;
+  border-radius: 0px;
+  background: #d0d0d0;
+  color: #000000;
+  padding-left: 0.25em;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+.theme_yotsubab input, .theme_yotsubab textarea, .theme_yotsubab select {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(169, 169, 169);
+  background: #ffffff;
+  color: #000000;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 100%;
+}
+.theme_yotsubab #selectedTab {
+  color: #DD0000;
+  /* text-shadow: 0px 0px 5px #117743; */
+}
+
+
+.theme_yotsubab .boardPages {
+  color: #800000;
+  padding: 0.1em 0.25em;
+}
+
+
+/*###########################*/
+/*Theme for Yotsuba normal. */
+/*###########################*/
+
+.theme_yotsuba .diceDiv::before {
+  content: "Rolled ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_yotsuba .diceDiv {
+  content: "Rolled ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_yotsuba .fortuneDiv::before {
+  content: "Fortune: ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_yotsuba .fortuneDiv{
+  content: "Fortune: ";
+  color: #363636;
+  font-style: italic;
+}
+
+
+.theme_yotsuba .frensBox {
+    margin-bottom: 16px;
+    vertical-align: middle;
+    width: 500px;
+    background-color: #f0e0d6;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #d9bfb7;
+    text-align: center;
+    margin: auto;
+}
+.theme_yotsuba .frensHeader {
+    background-color: #f0e0d5;
+    border-bottom: 1px solid #d9bfb7;
+}
+
+
+.theme_yotsuba div#federationBox {
+    background-color: #f0e0d6;
+    text-align: center;
+    border: 1px solid #d9bfb7;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+.theme_yotsuba div#ircBox {
+    background-color: #f0e0d6;
+    text-align: center;
+    border: 1px solid #d9bfb7;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+
+@media only screen and (max-width: 812px) {
+  body.theme_yotsuba {
+    background: #ffe url(/.static/fade.png) top center repeat-x;
+    font-size: 85%;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+body.theme_yotsuba {
+  color:#800000;
+  margin: 0px;
+  font-size: 11pt;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 5px;
+  background: #ffe url(/.static/fade.png) top center repeat-x;
+}
+
+.theme_yotsuba nav {
+  height: 18px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(240,224,214,0.98);
+  border-bottom: 1px solid #b0790a00;
+  box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.20);
+  padding-bottom: 3px;
+  font-size: 70%;
+  text-align: center;
+  z-index: 1;
+}
+.theme_yotsuba .topBoards a, .theme_yotsuba #divLatestImages img, .theme_yotsuba #divLatestPosts .latestPostCell, .theme_yotsuba .innerPost, .theme_yotsuba .sideCatalogCell, .theme_yotsuba .markedPost, .theme_yotsuba .sideCatalogMarkedCell, .theme_yotsuba .catalogCell {
+      /*background: rgba(240,224,214,0.98);
+    border-radius: 0px; */
+    background-color: #f0e0d6;
+    border: 1px solid #d9bfb7;
+    border-left: none;
+    border-top: none;
+    /* display: table; */
+    padding: 2px;
+}
+.theme_yotsuba .floatingMenu, .theme_yotsuba #quick-reply table{
+  background: #F0E0D6;
+}
+.theme_yotsuba .markedPost, .theme_yotsuba .sideCatalogMarkedCell {
+  background: rgba(240,224,214,0.98);
+}
+.theme_yotsuba .coloredIcon {
+  color: #800000;
+  cursor: pointer;
+}
+.theme_yotsuba a {
+	color:#0000EE;
+}
+.theme_yotsuba .unhideButton {
+  color: #000
+}
+.theme_yotsuba input[type=button], .theme_yotsuba input[type=submit], .theme_yotsuba button, .theme_yotsuba .dropzone, .theme_yotsuba .selectedCell {
+  border: 0px double #D6DAF0;
+  border-radius: 0px;
+  background: #d0d0d0;
+  color: #000000;
+  padding-left: 0.25em;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+.theme_yotsuba input, .theme_yotsuba textarea, .theme_yotsuba select {
+  border: 1px double #777777;
+  border-radius: 0px;
+  background: #ffffff;
+  color: #7d7d7d;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 100%;
+}
+.theme_yotsuba #selectedTab {
+  color: #DD0000;
+  /* text-shadow: 0px 0px 5px #117743; */
+}
+.theme_yotsuba .boardPages {
+  color: #800000;
+  padding: 0.1em 0.25em;
+}
+.theme_yotsuba .noEmailName:hover, .theme_yotsuba .noEmailName {
+  color: #117743;
+  text-shadow: none;
+} 
+
+/*###########################*/
+/*Theme for Yotsuba C */
+/*###########################*/
+
+.theme_yotsubac .diceDiv::before {
+  content: "Rolled ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_yotsubac .diceDiv {
+  content: "Rolled ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_yotsubac .fortuneDiv::before {
+  content: "Fortune: ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_yotsubac .fortuneDiv{
+  content: "Fortune: ";
+  color: #363636;
+  font-style: italic;
+}
+
+
+
+.theme_yotsubac .frensBox {
+    margin-bottom: 16px;
+    vertical-align: middle;
+    width: 500px;
+    background-color: #d6f0d7;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #b7d9b8;
+    text-align: center;
+    margin: auto;
+}
+.theme_yotsubac .frensBoxInner {
+	padding-bottom: 15px;
+}
+.theme_yotsubac .frensHeader {
+    background-color: #d6f0d7;
+    border-bottom: 1px solid #b7d9b8;
+}
+
+.theme_yotsubac div#federationBox {
+    background-color: #d6f0d9;
+    text-align: center;
+    border: 1px solid #b7d9b8;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+.theme_yotsubac div#ircBox {
+    background-color: #d6f0d9;
+    text-align: center;
+    border: 1px solid #b7d9b8;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+
+
+@media only screen and (max-width: 812px) {
+  body.theme_yotsubac {
+    background: #efffee url(/.static/fade-green.png) top center repeat-x;
+    font-size: 85%;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+    
+  
+}  
+body.theme_yotsubac {
+  background: #efffee url(/.static/fade-green.png) top center repeat-x;
+  color: #000;
+  font-size: 11pt;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 5px;
+}
+
+.theme_yotsubac nav {
+  height: 18px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #d6f0d7;
+  border-bottom: 1px solid #d6f0d8;
+  box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.20);
+  padding-bottom: 3px;
+  font-size: 70%;
+  text-align: center;
+  z-index: 1;
+}
+.theme_yotsubac .topBoards a, .theme_yotsubac #divLatestImages img, .theme_yotsubac #divLatestPosts .latestPostCell, .theme_yotsubac .innerPost, .theme_yotsubac .sideCatalogCell, .theme_yotsubac .markedPost, .theme_yotsubac .sideCatalogMarkedCell, .theme_yotsubac .catalogCell {
+    /* background: #d6daf0;
+    border: 1px solid #b7c5d9; */
+    background-color: #d6f0d9;
+    border: 1px solid #b7d9b8;
+    border-left: none;
+    border-top: none;
+    /* display: table; */
+    padding: 2px;
+}
+.theme_yotsubac .floatingMenu, .theme_yotsubac #quick-reply table{
+  cursor: pointer;
+  background: rgba(215, 240, 214, 0.98);
+}
+
+.theme_yotsubac .coloredIcon {
+  color: rgb(52, 92, 54);
+  cursor: pointer;
+}
+.theme_yotsubac a {
+	color:#00e;
+}
+.theme_yotsubac .unhideButton {
+  color: #000
+}
+.theme_yotsubac input[type=button], .theme_yotsubac input[type=submit], .theme_yotsubac button, .theme_yotsubac .dropzone, .theme_yotsubac .selectedCell {
+  border: 0px double #D6DAF0;
+  border-radius: 0px;
+  background: #d0d0d0;
+  color: #000000;
+  padding-left: 0.25em;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+.theme_yotsubac input, .theme_yotsuba textarea, .theme_yotsuba select {
+  border: 1px double #777777;
+  border-radius: 0px;
+  background: #ffffff;
+  color: #7d7d7d;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 100%;
+}
+.theme_yotsubac #selectedTab {
+  color: #DD0000;
+  /* text-shadow: 0px 0px 5px #117743; */
+}
+.theme_yotsubac .boardPages {
+  color: #800000;
+  padding: 0.1em 0.25em;
+}
+.theme_yotsubac .noEmailName:hover, .theme_yotsubac .noEmailName {
+  color: #117743;
+  text-shadow: none;
+} 
+
+
+
+
+/*###########################*/
+/*Lain theme*/
+/*###########################*/
+
+.theme_lain .frensBox {
+    margin-bottom: 16px;
+    vertical-align: middle;
+    width: 500px;
+    background-color: #222;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: 1px solid #c21;
+    border-right: 1px solid #c21;
+    border-color: #c21;
+    text-align: center;
+    margin: auto;
+}
+.theme_lain .frensBoxInner {
+	padding-bottom: 15px;
+}
+.theme_lain .frensHeader {
+    background-color: #222;
+    border: 1px solid #c21;
+}
+
+.theme_lain div#federationBox {
+    background-color: #222;
+    text-align: center;
+    border: 1px solid #ce6982;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+.theme_lain div#ircBox {
+    background-color: #222;
+    text-align: center;
+    border: 1px solid #ce6982;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+
+
+body.theme_lain{
+  /*background-image: url(/.static/lain.gif), url(/.static/meuguca1.gif);*/
+  background-size: 419px 325px, 100px 100px;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+    color: #eee;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 90%;
+}
+.theme_lain textarea {
+    color: inherit;
+    font-size: inherit;
+    border: 0;
+    padding: 2;
+    background-color: transparent;
+    outline: 0;
+}
+.theme_lain .labelSubject {
+    color: #b388ff;
+    font-weight: bold;
+}
+.theme_lain .labelSubject::before { 
+  content: "「";
+}
+.theme_lain .labelSubject::after { 
+  content: "」";
+}
+.theme_lain .panelBacklinks a {
+    padding-left: 0.5em;
+    color: #ce6982;
+    text-decoration: none;
+}
+.theme_lain .panelBacklinks:hover a {
+    padding-left: 0.5em;
+    color: #513fd3;
+    text-decoration: none;
+}
+.theme_lain .quoteLink {
+    color: #ce6982;
+}
+.theme_lain .quoteLink:hover {
+    color: #513fd3;
+}
+.theme_lain .linkName {
+    font-weight: bold;
+    color: #ce6982;
+}
+.theme_lain .linkName:hover {
+    font-weight: bold;
+    color: #513fd3;
+}
+.theme_lain .linkQuote {
+    color: #555;
+    text-decoration: none;
+}
+.theme_lain .linkQuote:hover {
+    color: #ce6982;
+    text-decoration: none;
+}
+.theme_lain .linkSelf {
+    color: #555;
+    text-decoration: none;
+}
+.theme_lain #showFormsButton {
+color: #ce6982;
+}
+.theme_lain #showFormsButton:hover {
+color: #513fd3;
+}
+.theme_lain nav {
+background: #222222b3;
+border-bottom: 1px solid #111;
+}
+.theme_lain .coloredIcon {
+color: #ce6982;
+}
+.theme_lain .coloredIcon:hover {
+color: #513fd3;
+}
+.theme_lain .catalogCell {
+background: #222222;
+border: 1px solid #222;
+border-radius: 0px;
+}
+.theme_lain .relativeTime {
+color: #555;
+}
+.theme_lain input[type=button], input[type=submit], .theme_lain button, .theme_lain .dropzone, .theme_lain .selectedCell
+{
+border: 3px double #111;
+background: #222;
+border-radius: 0px;
+}
+.theme_lain #postingForm th {
+border: 1px solid #333;
+background: #222;
+border-radius: 0px;
+}
+.theme_lain .innerPost, .markedPost {
+background: #222;
+border: 1px solid #111;
+border-radius: 0px;
+}
+.theme_lain .markedPost, .sideCatalogMarkedCell {
+    background: #333;
+}
+.theme_lain #newPostFieldset, .theme_lain #quick-reply table, .theme_lain .modalDecorationPanel {
+border: 1px dashed #d2738a;
+}
+.theme_lain hr {
+border-color: #d2738a;
+}
+.theme_lain .reportFieldset {
+border: 1px dashed #d2738a;
+}
+.theme_lain .noEmailName, .theme_lain .noEmailName:hover {
+color: #98E;
+}
+.theme_lain a {
+color: #d2738a;
+}
+.theme_lain .sideCatalogCell, .theme_lain .sideCatalogMarkedCell {
+background: #222;
+border: 1px solid #333333;
+border-radius: 0px;
+}
+.theme_lain #divLatestPosts .latestPostCell {
+background: #222;
+border: 1px solid #d2738a;
+border-radius: 0px;
+}
+.theme_lain span.spoiler {
+  background: eee;
+  color: eee;
+  padding: 0 1px;
+}
+.theme_lain .redText {
+  /*  background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet); */
+    background-image: repeating-linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+/*  background-image: repeating-linear-gradient(90deg, #E40303, #FF8C00, #FFED00, #008026, #004DFF, #750787, #E40303); */
+    background-size: 50% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 1s linear infinite;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+ 
+.theme_lain .floatingMenu {
+  border: 1px dashed #222;
+  background: #1c1c1c;
+  padding: 0.25em;
+}
+.theme_lain .floatingMenu, .theme_lain #quick-reply table {
+    background: #1c1c1c;
+    border: 1px dashed #222;
+}
+.theme_lain input[type=checkbox].postingCheckbox+label:before {
+    color: #d2738a;
+}
+.theme_lain a.rules:after {
+color: #d2738a;
+}
+.theme_lain header {
+         /*  background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet); */
+    background-image: repeating-linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+/*  background-image: repeating-linear-gradient(90deg, #E40303, #FF8C00, #FFED00, #008026, #004DFF, #750787, #E40303); */
+    background-size: 50% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #d2738a;
+    animation: rainbow 1s linear infinite;
+    font-size: 75%;
+    text-transform: uppercase;
+}
+ 
+.theme_lain .noEmailName, .theme_lain .noEmailName:hover {
+color: #d2738a;
+}
+.theme_lain input, .theme_lain select, .theme_lain textarea {
+    border: 1px double #111;
+    border-radius: 0px;
+    background: #222;
+    color: #eee;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 100%;
+}
+.theme_lain #settingsMenu textarea:focus,
+.theme_lain #postingTable textarea:focus,
+.theme_lain #postingTable #fieldName:focus,
+.theme_lain #postingTable #fieldSubject:focus,
+.theme_lain #postingTable #fieldEmail.postingInput,
+.theme_lain #postingTable #fieldPostingPassword.postingInput {
+box-shadow: none;
+}
+
+/* Removes the blue that remains after removing green */
+.theme_lain #postingForm input:focus, .theme_lain #postingForm textarea:focus,
+.theme_lain .modalDecorationPanel input[type='text']:focus, .theme_lain #settingsMenu input[type='text']:focus,
+.theme_lain #settingsMenu textarea:focus,
+.theme_lain .contentAction #deletionFieldPassword,
+.theme_lain .contentAction #reportFieldReason,
+.theme_lain .contentAction #fieldCaptchaReport,
+.theme_lain #themeSelector:focus,
+.theme_lain button:focus {
+outline: none;
+}
+
+
+
+
+
+/*###########################*/
+/*Mushroom*/
+/*###########################*/
+
+
+.theme_mushroom .frensBox {
+    margin-bottom: 16px;
+    vertical-align: middle;
+    width: 500px;
+    background-color: #182f3f;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: 1px solid #82cece;
+    border-right: 1px solid #82cece;
+    border-color: #82cece;
+    text-align: center;
+    margin: auto;
+}
+.theme_mushroom .frensHeader {
+    background-color: #182f3f;
+    border: 1px solid #82cece;
+}
+
+.theme_mushroom div#federationBox {
+    background-color: #182f3f;
+    text-align: center;
+    border: 1px solid #82cece;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+.theme_mushroom div#ircBox {
+    background-color: #182f3f;
+    text-align: center;
+    border: 1px solid #82cece;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+
+
+body.theme_mushroom {
+  background: url(/.static/mushrooms.png);
+  }
+  .theme_mushroom .labelSubject {
+      color: #46b5b5;
+      font-weight: bold;
+  }
+  .theme_mushroom .panelBacklinks a {
+      padding-left: 0.5em;
+      color: #9befef;
+      text-decoration: none;
+  }
+  .theme_mushroom .quoteLink {
+      color: #9befef;
+  }
+  .theme_mushroom .linkName {
+      font-weight: bold;
+      color: #a0ffff;
+  }
+  .theme_mushroom #showFormsButton {
+  color: #82cece;
+  }
+  .theme_mushroom nav {
+  background: #183547;
+  border-bottom: 1px solid #82cece;
+  }
+  .theme_mushroom .coloredIcon {
+  color: #82cece;
+  }
+  .theme_mushroom .catalogCell {
+  background: #182f3f;
+  border: 1px solid #82cece;
+  border-radius: 0px;
+  }
+  .theme_mushroom input, .theme_mushroom select, .theme_mushroom textarea {
+  border: 1px double #82cece;
+  background: #182f3f;
+  border-radius: 0px;
+  }
+  .theme_mushroom input[type=button], .theme_mushroom input[type=submit], .theme_mushroom button, .theme_mushroom .dropzone, .theme_mushroom .selectedCell
+  {
+  border: 3px double #82cece;
+  background: #182f3f;
+  border-radius: 0px;
+  }
+  .theme_mushroom #postingForm th {
+  border: 1px solid #82cece;
+  background: #182f3f;
+  border-radius: 0px;
+  }
+  .theme_mushroom .innerPost, .theme_mushroom .markedPost {
+  background: #182f3f;
+  border: 1px solid #82cece;
+  border-radius: 0px;
+  }
+  .theme_mushroom .markedPost, .theme_mushroom .sideCatalogMarkedCell {
+      background: #14253169;
+  }
+  .theme_mushroom #newPostFieldset, .theme_mushroom #quick-reply table, .theme_mushroom .modalDecorationPanel {
+  border: 1px dashed #00D4FF;
+  }
+  .theme_mushroom hr {
+  border-color: #00D4FF;
+  }
+  .theme_mushroom .reportFieldset {
+  border: 1px dashed #00D4FF;
+  }
+  .theme_mushroom .noEmailName, .theme_mushroom .noEmailName:hover {
+  color: #98E;
+  }
+  .theme_mushroom a {
+  color: #82cece;
+  }
+  .theme_mushroom .sideCatalogCell, .theme_mushroom .sideCatalogMarkedCell {
+  background: #182f3f;
+  border: 1px solid #82cece;
+  border-radius: 0px;
+  }
+  .theme_mushroom #divLatestPosts .latestPostCell {
+  background: #182f3f;
+  border: 1px solid #82cece;
+  border-radius: 0px;
+  }
+  .theme_mushroom span.spoiler {
+    background: teal;
+    color: teal;
+    padding: 0 1px;
+  }
+  .theme_mushroom .redText {
+    /*  background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet); */
+      background-image: repeating-linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+  /*  background-image: repeating-linear-gradient(90deg, #E40303, #FF8C00, #FFED00, #008026, #004DFF, #750787, #E40303); */
+      background-size: 50% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: rainbow 1s linear infinite;
+      font-size: 1.5em;
+      text-transform: uppercase;
+  }
+
+  .theme_mushroom .floatingMenu {
+    border: 1px dashed #00D4FF;
+    background: #0f202b;
+    padding: 0.25em;
+  }
+  .theme_mushroom .floatingMenu, .theme_mushroom #quick-reply table {
+      background: #0f202b;
+  }
+  .theme_mushroom input[type=checkbox].postingCheckbox+label:before {
+      color: aqua;
+  }
+  .theme_mushroom a.rules:after {
+  color: #117743;
+  }
+  .theme_mushroom header {
+           /*  background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet); */
+      background-image: repeating-linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+  /*  background-image: repeating-linear-gradient(90deg, #E40303, #FF8C00, #FFED00, #008026, #004DFF, #750787, #E40303); */
+      background-size: 50% 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: #82cece;
+      animation: rainbow 1s linear infinite;
+      font-size: 75%;
+      text-transform: uppercase;
+  }
+  .theme_mushroom .noEmailName, .theme_mushroom .noEmailName:hover {
+  color: #82cece;
+  }
+  .theme_mushroom ::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+  }
+   
+  /* Track */
+  .theme_mushroom ::-webkit-scrollbar-track {
+    background: #0f202b;
+  }
+   
+  /* Handle */
+  .theme_mushroom ::-webkit-scrollbar-thumb {
+    background: #182f3f;
+  }
+   
+  /* Handle on hover */
+  .theme_mushroom ::-webkit-scrollbar-thumb:hover {
+    background: #82cece;
+  }
+
+
+
+
+
+/*###########################*/
+/*Chapink*/
+/*###########################*/
+
+.theme_chanpink .diceDiv::before {
+  content: "Rolled ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_chanpink .diceDiv {
+  content: "Rolled ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_chanpink .fortuneDiv::before {
+  content: "Fortune: ";
+  color: #363636;
+  font-style: italic;
+}
+.theme_chanpink .fortuneDiv{
+  content: "Fortune: ";
+  color: #363636;
+  font-style: italic;
+}
+
+
+
+
+.theme_chanpink .frensBox {
+    margin-bottom: 16px;
+    vertical-align: middle;
+    width: 500px;
+    background-color: pink;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: 1px solid #80002c;
+    border-right: 1px solid #80002c;
+    border-color: #80002c;
+    text-align: center;
+    margin: auto;
+}
+.theme_chanpink .frensBoxInner {
+	padding-bottom: 15px;
+}
+.theme_chanpink .frensHeader {
+    background-color: pink;
+    border: 1px solid #80002c;
+}
+
+.theme_chanpink div#federationBox {
+    background-color: pink;
+	color: #80002c;
+    text-align: center;
+    border: 1px solid #80002c;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+.theme_chanpink div#ircBox {
+    background-color: pink;
+	color: #80002c;
+    text-align: center;
+    border: 1px solid #80002c;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+
+
+/* Small text in post area */
+.theme_chanpink .small {
+  font-size: 75%;
+  text-decoration: none;
+}
+
+/* "rules" in post area */
+.theme_chanpink .small a {
+  color: #80002c;
+  text-decoration: none;
+}
+
+/* "rules" hover in post area */
+.theme_chanpink .small a:hover {
+  color: #ff0000;
+}
+
+/* Theme selector */
+.theme_chanpink #themeSelector {
+  color: #80002c;
+  background: #ffc0cb;
+  font-size: 100%;
+  border: 1px solid #80002c;
+}
+  
+/* Horizontal line */
+.theme_chanpink hr {
+  height: 0px;
+  border-width: 2px medium medium;
+  border-style: dashed none none;
+  border-color: #80002c;
+}
+  
+/* Links in nav, "hide file", some side catalog text and signs before "Anonymous" */
+.theme_chanpink .coloredIcon {
+  color: #80002c;
+  cursor: pointer;
+}
+
+/* nav links and buttons before "Astronaut" hover */
+.theme_chanpink .coloredIcon:hover,
+.theme_chanpink span.hideButton:hover,
+.theme_chanpink span.extraMenuButton:hover,
+.theme_chanpink span.watchButton:hover {
+  color: #ff0000;
+  text-shadow: none;
+}
+
+/* Links, includes side catalog text */
+.theme_chanpink a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+/* Mouse hover over elements with <a> tag */
+.theme_chanpink a:hover, .theme_chanpink .glowOnHover:hover {
+  text-shadow: none;
+  color:  #4d4dff;
+}
+ 
+/* Area for inputing text */ 
+.theme_chanpink input, .theme_chanpink select, .theme_chanpink textarea {
+  box-shadow: none;
+  border: 1px solid #80002c;
+  border-radius: 0px;
+  background: #ffe6ea;
+  color: #80002c;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 100%;
+}
+
+/* Buttons */ 
+.theme_chanpink input[type=button], .theme_chanpink input[type=submit], .theme_chanpink button, .theme_chanpink .dropzone, .theme_chanpink .selectedCell
+  {
+  border: 0px #07371F;
+  border-radius: 0px;
+  background: #ff8095;
+  color: #80002c;
+  padding-left: 0.25em;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 80%;
+  font-weight: bold;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+  
+/* body styles, inherited by whole page */
+body.theme_chanpink {
+  position: relative;
+  color: #80002c;
+  background: #ffccd5;
+  font-family: font-family: arial,helvetica,sans-serif;
+  font-size: 100%;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right; 
+  /*background-size: 450px 350px;*/
+}
+  
+/* header and nav / top of page styles */
+
+/* Area around banner */
+.theme_chanpink header {
+  width: 50%;
+  margin: 3em auto 0 auto;
+  text-align: center;
+}
+  
+/* Navigator bar */
+.theme_chanpink nav {
+  height: 18px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #ffc0cb;
+  box-shadow: 0px 2px 5px;
+  border-bottom: 0px;
+  padding-bottom: 3px;
+  font-size: 70%;
+  text-align: center;
+  z-index: 1;
+}
+  
+/* Text in navigator bar */
+.theme_chanpink nav span, nav a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 0.2em;
+}
+
+/* That small logo after "rules" in post area */ 
+.theme_chanpink a.rules:after {
+  font-family: Icons;
+  content: "\e052";
+  margin-right: 0.5em;
+  color: #80002c;
+  height: 80%;
+  font-size: 80%;
+  padding-left: 0.25em;
+  vertical-align: middle;
+}
+  
+/* markdown */
+.theme_chanpink .greenText {
+  color: #789922;
+}
+  
+.theme_chanpink .redText {
+  color: #AF0A0F;
+  font-weight: bold;
+  font-size: 125%;
+}
+  
+.theme_chanpink span.spoiler {
+  background: #000;
+  color: #000;
+  padding: 0 1px;
+}
+
+/* Mouse hover over spoiler text */  
+.theme_chanpink .spoiler:hover {
+  color: #80002c;
+  background: none;
+}
+  
+/* footer styles */
+.theme_chanpink footer {
+  width: 100%;
+  margin: 3em 0px 2em 0px;
+  text-align: center;
+  font-size: 75%;
+}
+  
+/* this has to go down here to override anything above it */
+.theme_chanpink .hidden {
+  display: none;
+}
+  
+.theme_chanpink #settingsWrapper input.hidden {
+  display: none;
+  box-shadow: none;
+}
+
+/* Settings menu header text */
+.theme_chanpink .floatingMenu .headerLabel {
+  font-size: 80%;
+}
+
+/* Floating menu header */
+.theme_chanpink .floatingMenu .header, .theme_chanpink .floatingMenu .headerLabel {
+  cursor: pointer;
+}
+
+/* Settings, post and quick reply fields */
+.theme_chanpink #newPostFieldset, .theme_chanpink #quick-reply table, .theme_chanpink .modalDecorationPanel,
+.theme_chanpink .floatingMenu, .theme_chanpink #settingsFieldset, .theme_chanpink .reportFieldset {
+  border: 1px dashed #80002c;
+  background: #ffc0cb;
+}
+ /* "Show forms" at the end */
+ .theme_chanpink #showFormsButton {
+  color: #80002c;
+}
+
+/* "/b/ - Random" and "Random" */
+.theme_chanpink .boardHeader p#labelName, .theme_chanpink p#labelDescription {
+  font-size: 200%;
+  color: #80002c;
+  display: inline-block;
+}
+
+/* Posting form labels */
+.theme_chanpink #postingForm th{
+  border: 0px;
+  background: #ff8095;
+}
+
+/* Tab titles in settings */
+.theme_chanpink .settingsTab {
+  color: #80002c;
+}
+
+/* Selected tab in settings */
+.theme_chanpink #selectedTab {
+  text-shadow: none;
+  color: #000;
+}
+
+/* Text areas when clicked on */
+.theme_chanpink #postingForm input:focus, .theme_chanpink #postingForm textarea:focus,
+.theme_chanpink .modalDecorationPanel input[type='text']:focus, .theme_chanpink #settingsMenu input[type='text']:focus,
+.theme_chanpink #settingsMenu textarea:focus {
+  box-shadow: none;
+}
+
+/* Side catalog cell */
+.theme_chanpink .sideCatalogCell {
+background: #ffcccb;
+border: 1px solid #80002c;
+}
+
+/* Side catalog selected cell */
+.theme_chanpink .sideCatalogMarkedCell {
+  border: 1px dashed #80002c;
+  background: #ffc0cb;
+}
+
+.theme_chanpink .sideCatalogMarkedCell:hover {
+  color: #ff0000;
+  text-shadow: none;
+}
+
+/* Settings */
+.theme_chanpink .floatingMenu {
+  color: #80002c;
+  box-shadow: 5px 5px 5px;
+}
+ /* Side catalog */
+ .theme_chanpink #sideCatalogDiv, .theme_chanpink a.sideCatalogCell {
+  color: #80002c;
+  background: #ffc0cb;
+}
+
+.theme_chanpink a.sideCatalogCell:hover {
+  text-shadow: none;
+  color: #ff0000;
+}
+
+/* Also side catalog */
+.theme_chanpink #sideCatalog {
+  color: #80002c;
+  background: #ffc0cb;
+}
+
+/* Checkbox(?) */
+.theme_chanpink input[type=checkbox].postingCheckbox+label:before {
+  font-family: Icons;
+  content: "\e0db";
+  margin-right: 0.5em;
+  color: #80002c;
+  display: inline-block;
+  cursor: pointer;
+}
+
+ /* Reply area */
+ .theme_chanpink .innerPost {
+  border: 1px solid #80002c;
+  background: pink;
+}
+.theme_chanpink .markedPost {
+  background: #f88d9f;
+  border: 1px solid #80002c;
+}
+
+
+/* Focused reply */
+.theme_chanpink div.markedPost {
+  border: 1px dashed #80002c;
+}
+
+/* "Open file" */
+.theme_chanpink a.nameLink {
+  color: #80002c;
+}
+
+/* Mouse hover "Open file" and "(Hide file)" */
+.theme_chanpink a.nameLink:hover,
+.theme_chanpink a.hideFileButton:hover {
+  color: #303030;
+  text-shadow: none;
+}
+
+/* Post created time */
+.theme_chanpink .labelCreated {
+  color: #80002c;
+  cursor: context-menu;
+}
+
+/* Quotes*/
+.theme_chanpink .linkQuote, .theme_chanpink .linkSelf, .theme_chanpink .panelBacklinks a,
+.theme_chanpink .quoteLink {
+  font-weight: normal;
+  color: #ff0000;
+}
+
+/* Mouse hover quotes */
+.theme_chanpink .linkQuote:hover, .theme_chanpink .linkSelf:hover, .theme_chanpink .panelBacklinks a:hover,
+.theme_chanpink .quoteLink:hover {
+  text-shadow:  none;
+  color: blue;
+}
+
+/* Name with email */
+.theme_chanpink a.linkName {
+  color: #009900;
+}
+
+/* Name and mouse hover name*/
+.theme_chanpink a.noEmailName,
+.theme_chanpink a.noEmailName:hover {
+  cursor: context-menu;
+  color: #b3003e;
+}
+
+/* Subject */
+.theme_chanpink span.labelSubject {
+  color: #e60050;
+}
+
+/* Role */
+.theme_chanpink span.labelRole:before {
+  color: #ff0000;
+}
+
+/* ==RED TEXT== */
+.theme_chanpink .redText {
+  color: #ff0000;
+}
+
+/* Close buttons*/
+.theme_chanpink span#closeSettingsMenuButton:hover,
+.theme_chanpink span#closeSideCatalogButton:hover,
+.theme_chanpink span#closeWatcherMenuButton:hover {
+  color: #80002c;
+}
+
+/* Watched cell subject */
+.theme_chanpink label.watchedCellLabel a,
+.theme_chanpink span.watchedCellCloseButton:hover {
+  color: #80002c;
+}
+
+/* Watched cell label hover */
+.theme_chanpink label.watchedCellLabel a:hover {
+  color: #ff0000;
+}
+
+/* "Manage board" and "moderate thread" */
+.theme_chanpink #linkManagement, .theme_chanpink #linkMod {
+  color: #80002c;
+}
+
+/* "Manage board" and "moderate thread" mouse hover*/
+.theme_chanpink #linkManagement:hover, .theme_chanpink #linkMod:hover {
+  color: #ff0000;
+}
+
+/* "Manage board" and "moderate thread" */
+.theme_chanpink #linkModeration {
+  color: #80002c;
+}
+
+/* "Manage board" and "moderate thread" mouse hover*/
+.theme_chanpink #linkModeration:hover {
+  color: #ff0000;
+}
+
+.theme_chanpink span#divPages a {
+  color: #80002c;
+}
+ /* Page number hover*/
+ .theme_chanpink span#divPages a:hover {
+  color: #ff0000;
+}
+ /* Quick reply header*/
+ .theme_chanpink #quick-reply th {
+  border: none;
+}
+
+.theme_chanpink a.linkReply {
+  font-weight: normal;
+}
+
+/*the posts displayed on the main page apparently need their own shit because they're special fucking snowflakes. Thanks obama.*/
+.theme_chanpink #divLatestPosts .latestPostCell {
+  background-color: pink;
+  border: 1px solid #80002c;
+}
+.theme_chanpink #settingsMenu {
+  background-color: #ffc0cb;
+  position: fixed;
+  left: 100px;
+  top: 25px;
+  z-index: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Meguca Muwaru Theme*/
+
+.theme_meguca .frensBox {
+    margin-bottom: 16px;
+    vertical-align: middle;
+    width: 500px;
+    background-color: #222;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: 1px solid #c21;
+    border-right: 1px solid #c21;
+    border-color: #c21;
+    text-align: center;
+    margin: auto;
+}
+.theme_meguca .frensBoxInner {
+	padding-bottom: 15px;
+}
+.theme_meguca .frensHeader {
+    background-color: #222;
+    border: 1px solid #c21;
+}
+
+
+
+.theme_meguca div#federationBox {
+    background-color: #222;
+    text-align: center;
+    border: 1px solid #c21;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+.theme_meguca div#ircBox {
+    background-color: #222;
+    text-align: center;
+    border: 1px solid #c21;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+
+
+body.theme_meguca{
+  /*background-image: url(/.static/lain.gif), url(/.static/meuguca.png);*/
+  background-size: 419px 325px, 300px 300px;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  background-attachment: fixed;
+    color: #eee;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 90%;
+}
+.theme_meguca textarea {
+    color: inherit;
+    font-size: inherit;
+    border: 0;
+    padding: 2;
+    background-color: transparent;
+    outline: 0;
+}
+.theme_meguca .labelSubject {
+    color: #b388ff;
+    font-weight: bold;
+}
+.theme_meguca .labelSubject::before { 
+  content: "「";
+}
+.theme_meguca .labelSubject::after { 
+  content: "」";
+}
+.theme_meguca .panelBacklinks a {
+    padding-left: 0.5em;
+    color: #c22;
+    text-decoration: none;
+}
+.theme_meguca .panelBacklinks:hover a {
+    padding-left: 0.5em;
+    color: #513fd3;
+    text-decoration: none;
+}
+.theme_meguca .quoteLink {
+    color: #c22;
+}
+.theme_meguca .quoteLink:hover {
+    color: #513fd3;
+}
+.theme_meguca .linkName {
+    font-weight: bold;
+    color: #c22;
+}
+.theme_meguca .linkName:hover {
+    font-weight: bold;
+    color: #513fd3;
+}
+.theme_meguca .linkQuote {
+    color: #555;
+    text-decoration: none;
+}
+.theme_meguca .linkQuote:hover {
+    color: #c22;
+    text-decoration: none;
+}
+.theme_meguca .linkSelf {
+    color: #555;
+    text-decoration: none;
+}
+.theme_meguca #showFormsButton {
+color: #c22;
+}
+.theme_meguca #showFormsButton:hover {
+color: #513fd3;
+}
+.theme_meguca nav {
+background: #222222b3;
+border-bottom: 1px solid #111;
+}
+.theme_meguca .coloredIcon {
+color: #c22;
+}
+.theme_meguca .coloredIcon:hover {
+color: #513fd3;
+}
+.theme_meguca .catalogCell {
+background: #222222;
+border: 1px solid #222;
+border-radius: 0px;
+}
+.theme_meguca .relativeTime {
+color: #555;
+}
+.theme_meguca input[type=button], input[type=submit], .theme_meguca button, .theme_meguca .dropzone, .theme_meguca .selectedCell
+{
+border: 3px double #111;
+background: #222;
+border-radius: 0px;
+}
+.theme_meguca #postingForm th {
+border: 1px solid #333;
+background: #222;
+border-radius: 0px;
+}
+.theme_meguca .innerPost, .markedPost {
+background: #222;
+border: 1px solid #111;
+border-radius: 0px;
+}
+.theme_meguca .markedPost, .sideCatalogMarkedCell {
+    background: #333;
+}
+.theme_meguca #newPostFieldset, .theme_meguca #quick-reply table, .theme_meguca .modalDecorationPanel {
+border: 1px dashed #c21;
+}
+.theme_meguca hr {
+border-color: #c21;
+}
+.theme_meguca .reportFieldset {
+border: 1px dashed #c21;
+}
+.theme_meguca .noEmailName, .theme_meguca .noEmailName:hover {
+color: #98E;
+}
+.theme_meguca a {
+color: #c21;
+}
+.theme_meguca .sideCatalogCell, .theme_meguca .sideCatalogMarkedCell {
+background: #222;
+border: 1px solid #333333;
+border-radius: 0px;
+}
+.theme_meguca #divLatestPosts .latestPostCell {
+background: #222;
+border: 1px solid #c21;
+border-radius: 0px;
+}
+.theme_meguca span.spoiler {
+  background: eee;
+  color: eee;
+  padding: 0 1px;
+}
+.theme_meguca .redText {
+  /*  background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet); */
+    background-image: repeating-linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+/*  background-image: repeating-linear-gradient(90deg, #E40303, #FF8C00, #FFED00, #008026, #004DFF, #750787, #E40303); */
+    background-size: 50% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 1s linear infinite;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+ 
+.theme_meguca .floatingMenu {
+  border: 1px dashed #222;
+  background: #1c1c1c;
+  padding: 0.25em;
+}
+.theme_meguca .floatingMenu, .theme_meguca #quick-reply table {
+    background: #1c1c1c;
+    border: 1px dashed #222;
+}
+.theme_meguca input[type=checkbox].postingCheckbox+label:before {
+    color: #c21;
+}
+.theme_meguca a.rules:after {
+color: #c21;
+}
+.theme_meguca header {
+         /*  background-image: repeating-linear-gradient(90deg, violet, indigo, blue, green, yellow, orange, red, violet); */
+    background-image: repeating-linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet, red);
+/*  background-image: repeating-linear-gradient(90deg, #E40303, #FF8C00, #FFED00, #008026, #004DFF, #750787, #E40303); */
+    background-size: 50% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #c21;
+    animation: rainbow 1s linear infinite;
+    font-size: 75%;
+    text-transform: uppercase;
+}
+ 
+.theme_meguca .noEmailName, .theme_meguca .noEmailName:hover {
+color: #c21;
+}
+.theme_meguca input, .theme_meguca select, .theme_meguca textarea {
+    border: 1px double #111;
+    border-radius: 0px;
+    background: #222;
+    color: #eee;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 100%;
+}
+.theme_meguca #settingsMenu textarea:focus,
+.theme_meguca #postingTable textarea:focus,
+.theme_meguca #postingTable #fieldName:focus,
+.theme_meguca #postingTable #fieldSubject:focus,
+.theme_meguca #postingTable #fieldEmail.postingInput,
+.theme_meguca #postingTable #fieldPostingPassword.postingInput {
+box-shadow: none;
+}
+
+/* Removes the blue that remains after removing green */
+.theme_meguca #postingForm input:focus, .theme_meguca #postingForm textarea:focus,
+.theme_meguca .modalDecorationPanel input[type='text']:focus, .theme_meguca #settingsMenu input[type='text']:focus,
+.theme_meguca #settingsMenu textarea:focus,
+.theme_meguca .contentAction #deletionFieldPassword,
+.theme_meguca .contentAction #reportFieldReason,
+.theme_meguca .contentAction #fieldCaptchaReport,
+.theme_meguca #themeSelector:focus,
+.theme_meguca button:focus {
+outline: none;
+}
+
+
+
+/*Cyberpunk theme*/
+
+
+.theme_cyberpunk .frensBox {
+    margin-bottom: 16px;
+    vertical-align: middle;
+    width: 500px;
+    background-color: #131313;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: 1px solid #cc00ff;
+    border-right: 1px solid #cc00ff;
+    border-color: #cc00ff;
+    text-align: center;
+    margin: auto;
+}
+.theme_cyberpunk .frensBoxInner {
+	padding-bottom: 15px;
+}
+.theme_cyberpunk .frensHeader {
+    background-color: #131313;
+    border: 1px solid #cc00ff;
+}
+
+
+
+body.theme_cyberpunk {
+    color: #ACACAC;
+    background: #000000;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 100%;
+    margin: 0px;
+}
+.theme_cyberpunk #postingForm th, .modalTableBody th {
+    font-weight: bold;
+    text-align: left;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10pt;
+    cursor: default;
+    border-radius: 0pc;
+    background-color: #131313;
+}
+.theme_cyberpunk input, select, textarea {
+    border: 0px solid;
+    background: #131313;
+    color: #ACACAC;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 100%;
+}
+
+.theme_cyberpunk input[type=button], input[type=submit], button, .dropzone, .selectedCell {
+    border: 0px double #07371F;
+    border-radius: 0px;
+    background: #131313;
+    color: #ACACAC;
+    padding-left: 0.25em;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+
+.theme_cyberpunk #favouriteButton:before {
+    font-family: Icons;
+    content: "\e0c2";
+    margin-left: 0.5em;
+    cursor: pointer;
+    color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+}
+
+
+.theme_cyberpunk .noEmailName, .noEmailName:hover {
+    color: #7c358e;
+    text-shadow: none;
+}
+
+.theme_cyberpunk .labelSubject {
+    color: #408dab;
+}
+
+.theme_cyberpunk .redText {
+    font-weight: bold;
+    font-size: 125%;
+    font-family: arial,helvetica,sans-serif;;
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+}
+
+.theme_cyberpunk .boardHeader p {
+    font-family: 'Futura';
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
+}
+
+.theme_cyberpunk a {
+    color: #cc00ff;
+    text-decoration: none;
+}
+
+.theme_cyberpunk nav {
+    height: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    border: 1px solid #cc00ff;
+    border-top: none;
+    padding-bottom: 3px;
+    font-size: 70%;
+    text-align: center;
+    z-index: 1;
+}
+
+.theme_cyberpunk .coloredIcon {
+    color: #cc00ff;
+    cursor: pointer;
+}
+
+.theme_cyberpunk .quoteLink {
+    color: #408dab;
+}
+
+.theme_cyberpunk input[type=checkbox].postingCheckbox+label:before {
+    font-family: Icons;
+    content: "\e0db";
+    margin-right: 0.5em;
+    color: #cc00ff;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.theme_cyberpunk div#federationBox {
+    background-color: #282a2e;
+    text-align: center;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-color: #353535;
+    background-size: auto;
+    background-color: #131313;
+    border: 1px solid #cc00ff;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size: 90%;
+}
+
+
+.theme_cyberpunk div#ircBox {
+    background-color: #131313;
+    border: 1px solid #cc00ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

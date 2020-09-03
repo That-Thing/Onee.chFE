@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1.0">
+<link
+  href="/.static/css/global.css"
+  type="text/css"
+  rel="stylesheet" />
+<title>Help</title>
+</head>
+<body>
+
+  <script src="/.static/js/themeLoader.js"></script>
+
+  <nav>
+    <span id="navLinkSpan"> <span>[</span> <a
+        href="/"
+        class="coloredIcon"
+        id="navLinkHome">Home</a> <span>/</span> <a
+        href="/boards.js"
+        class="coloredIcon"
+        id="navBoardList">Boards</a> <span>/</span> <a
+        href="/overboard"
+        class="coloredIcon"
+        id="navOverboard">Overboard</a> <span>/</span> <a
+        href="/.static/pages/posting.html"
+        class="coloredIcon"
+        id="navPosting">Help</a> <span>]</span>
+    </span>
+  </nav>
+
+  <header>
+    <img
+      src="/.static/logo.png"
+      class="logoImg"
+      alt="logo" />
+  </header>
+
+  <div id="settingsWrapper">
+    <fieldset id="settingsFieldset">
+      <legend>Help</legend>
+
+      <h1>Tripcodes</h1>
+      <p>To use a tripcode, add a # in your name. After the #, add the
+        password for the tripcode.</p>
+      <p>The server will apply a hash to the password and display the hashed
+        password.</p>
+      <p>To use a secure tripcode, add ## in your name and a password. A random string of characters will be generated 
+        in the name field following your name that will only ever be generated if the password matches.</p>
+      <br>
+      <p>Example: user##password -> user##gufFQ9</p>
+
+      <h1>Role signature</h1>
+      <p>If you wish to display your global or board role when posting, you
+        can put #rs in your name, like a tripcode(case insensitive). This will
+        prevent you from using a tripcode.</p>
+      <p>You can also chose to always use your role signature in the settings.</p>
+
+      <h1>Posting Options</h1>
+      <h3>Sage</h3>
+      <p>To prevent your post from bumping a thread, simply put <b>sage</b> in the options field when posting.</p>
+      <br>
+      <h3>Fortune</h3>
+      <p>If you enter <code>fortune</code> in the options/email field you will get a fortune in your post</p>
+      <br>
+      <p>Example: fortune -> Fair words butter no cabbage.</p>
+      <br>
+      <h3>Dice Rolls</h3>
+      <p>If you enter <code>dice{<i>rolls</i>}d{<i>dice</i>}</code> in the options/email field it will roll a dice with the given parameters in your post(results of rolls followed by the sum)</p>
+      <br>
+      <p>Example: dice1d6 -> 6 = 6</p>
+      <p>Example 2: dice3d20 -> 8, 11, 11, 8, 5 = 43</p>
+      <h1>Markdown</h1>
+      <h3>Greentext</h3>
+      <p>If you add a > at the start of a line, it will greentext the text
+        until a new line is made.</p>
+      <br>
+      <p>Example:</p>
+      <p>
+        >greentext -> <span class="greenText">>greentext</span>
+      </p>
+      <br>
+      <h3>Pinktext</h3>
+      <p>If you add a > at the start of a line, it will pinktext the text
+        until a new line is made.</p>
+      <br>
+      <p>Example:</p>
+      <p>
+        &lt;pink text -> <span class="orangeText">&lt;pink text
+          </span>
+      </p>
+      <br>
+      <h3>Rainbow Text</h3>
+      <p>Text surrounded by "##" will be turned into rainbow text</p>
+      <br>
+      <p>Example:</p>
+      <p>##Rainbow Text## -> <span class="rainbow">Rainbow Text</span></p>
+      <br>
+      <h3>Detected Text</h3>
+      <p>Text surrounded by "((( )))" will be turned into rainbow text</p> <br>
+      <p>Example:</p>
+      <p>(((Detected))) -> <span class="detected">(((detected)))</span></p>
+      <br>
+      <h3>Quote</h3>
+      <p>If you write >> and then a number to a post, it will create a
+        link to this post in the board you are posting on and add a tooltip with
+        the a preview of the post if you have JavaScript enabled.</p>
+      <br>
+      <p>Example:</p>
+      <p>
+        >>50 ->
+        <a href="">>>50</a>
+      </p>
+
+      <br>
+
+      <h3>Board link</h3>
+      <p>If you write >>> and then add a board name between slashes, it will
+        create a link to the board.</p>
+      <br>
+      <p>Example:</p>
+      <p>
+        >>>/b/ ->
+        <a
+          href=""
+          class="quoteLink">>>>/b/</a>
+      </p>
+
+      <br>
+
+      <h3>Cross-quote</h3>
+      <p>It is also possible to quote posts from other boards. Just add
+        the post number after the board name.</p>
+      <br>
+      <p>Example:</p>
+      <p>
+        >>>/a/50 ->
+        <a
+          href=""
+          class="quoteLink">>>>/a/50</a>
+      </p>
+
+      <br>
+
+      <h3>Tags</h3>
+      <p>
+        [spoiler]spoiler[/spoiler] -> <span class="spoiler">spoiler</span>
+      </p>
+      <p>
+        **alternative spoiler** -> <span class="spoiler">alternative spoiler</span>
+      </p>
+      <p>
+        ==RED TEXT== -> <span class="redText">RED TEXT</span>
+      </p>
+      <p>
+        ''italics'' -> <em>italics</em>
+      </p>
+      <p>
+        '''bold''' -> <strong>bold</strong>
+      </p>
+      <p>
+        __underline__ -> <u>underline</u>
+      </p>
+      <p>
+        ~~strikethrough~~ -> <s>strikethrough</s>
+      <p>
+      <p>[aa] for japanese characters</p>
+      <p>[code] tags if enabled by board owner</p>
+
+      <br>
+
+      <h3>Urls</h3>
+      <p>If you post a url starting with either http or https, it will
+        automatically be linked.</p>
+      <br>
+      <p>Example:</p>
+      <p>
+        https://onee.ch/ ->
+        <a href="">https://onee.ch/</a>
+      </p>
+
+    </fieldset>
+
+  </div>
+
+</body>
+
+<script src="/.static/js/api.js"></script>
+<script src="/.static/js/themes.js"></script>
+<script src="/.static/js/favouriteBoards.js"></script>
+
+</html>

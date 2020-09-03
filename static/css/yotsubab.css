@@ -1,0 +1,279 @@
+.quoteLink.you:after {
+    content: "(You) ";
+    font-size: 75%;
+    color: #34345c;
+    text-decoration: none;
+  }
+  
+@media only screen and (max-width: 812px) {
+  div#federationBox {
+    width: 300px;
+    font-size:80%;
+  }
+}
+}@media only screen and (max-width: 812px) {
+  div#ircBox {
+    width: 300px;
+    font-size:80%;
+  }
+}
+/* html, body {
+
+} */
+div#federationBox {
+    background-color: #d6daf0;
+    text-align: center;
+    border: 1px solid #b7c5d9;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+@media only screen and (max-width: 812px) {
+  div#federationBox {
+    background-color: #d6daf0;
+    text-align: center;
+    border: 1px solid #b7c5d9;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 300px;
+    margin: auto;
+    font-size:80%;
+  }
+}div#ircBox {
+    background-color: #d6daf0;
+    text-align: center;
+    border: 1px solid #b7c5d9;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 500px;
+    margin: auto;
+    font-size:90%;
+}
+@media only screen and (max-width: 812px) {
+  div#ircnBox {
+    background-color: #d6daf0;
+    text-align: center;
+    border: 1px solid #b7c5d9;
+    border-top: none;
+    border-left: none;
+    background-size: auto;
+    vertical-align: middle;
+    width: 300px;
+    margin: auto;
+    font-size:80%;
+  }
+}
+
+
+
+
+
+a, a:visited {
+    color: #34345c;
+}
+
+a:hover {
+	color:#DD0000;
+}
+
+
+input, select, textarea {
+    border: 0px double #D6DAF0;
+    border-radius: 0px;
+    background: #ffffff;
+    color: #7d7d7d;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 80%;
+}
+
+#postingForm th, .modalTableBody th {
+    font-weight: bold;
+    text-align: left;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 10pt;
+    cursor: default;
+    border: 1px solid #000;
+    border-radius: 0pc;
+    background-color: #98e;
+}
+
+input[type=button], input[type=submit], button, .dropzone, .selectedCell {
+    border: 0px double #D6DAF0;
+    border-radius: 0px;
+    background: #d0d0d0;
+    color: #000000;
+    padding-left: 0.25em;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    cursor: pointer;
+}
+
+.coloredIcon {
+    color: #34345C;
+    cursor: pointer;
+}
+
+
+nav {
+    height: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(214,218,240,0.98);
+    border-bottom: 1px solid #D6DAF0;
+    box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.20);
+    padding-bottom: 3px;
+    font-size: 70%;
+    text-align: center;
+    z-index: 1;
+}
+
+.boardHeader p {
+    color: maroon;
+}
+
+.topBoards a, #divLatestImages img, #divLatestPosts .latestPostCell, .markedPost, .innerPost, .sideCatalogCell, .markedPost, .sideCatalogMarkedCell, .catalogCell {
+    /* background: #d6daf0;
+    border: 1px solid #b7c5d9; */
+    background-color: #d6daf0;
+    border: 1px solid #b7c5d9;
+    border-left: none;
+    border-top: none;
+    /* display: table; */
+    padding: 2px;
+}
+
+
+
+@media only screen and (max-width: 812px) {
+    body {
+      background: #eef2ff url(/.static/fade-blue.png) top center repeat-x;
+      font-size: 85%;
+      margin-top: 5px;
+      margin-left: 0;
+      margin-right: 0;
+      padding-top: 10px;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    
+  
+}  
+
+
+
+
+
+body {
+    background: #eef2ff url(/.static/fade-blue.png) top center repeat-x;
+    color: #000;
+    font-size: 11pt;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+}
+a {
+    color: #00e;
+    text-decoration: none;
+}
+
+nav {
+    height: 18px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #D6DAF0;
+    border-bottom: 1px solid #D6DAF0;
+    padding-bottom: 3px;
+    font-size: 70%;
+    text-align: center;
+    z-index: 1;
+}
+
+#existingFiltersPanel {
+    overflow: hidden;
+    overflow-y: auto;
+    height: 20em;
+    background: #eef2ff;
+}
+
+.floatingMenu .header, .floatingMenu .headerLabel {
+    cursor: pointer;
+    background: #D6DAF0;
+}
+
+#newPostFieldset, #quick-reply table, .modalDecorationPanel, .floatingMenu, #settingsFieldset, .reportFieldset {
+    
+}
+.floatingMenu, #quick-reply table {
+    background: rgba(214,218,240,0.98);
+}
+#selectedTab {
+    color: #DD0000;
+    /* text-shadow: 0px 0px 5px #117743; */
+}
+
+hr {
+    height: 0px;
+    border-width: 1px medium medium;
+    border-style: solid none none;
+    border-color: #D6DAF0;
+}
+
+input, select, textarea {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(169, 169, 169);
+    background: #ffffff;
+    color: #000000;
+    font-family: font-family: arial,helvetica,sans-serif;
+    font-size: 80%;
+}
+
+.linkQuote {
+    color: #00e;
+    text-decoration: none;
+}
+.linkSelf {
+    color: #00e;
+    text-decoration: none;
+}
+
+.labelSubject{
+    color: #0f0c5d;
+    font-weight: 700;
+}
+
+.noEmailName:hover, .noEmailName {
+    color: #117743;
+    text-shadow: none;
+  } 
+  .labelRole {
+    color: #bd0707;
+  }
+  
+  .labelRole:before {
+    font-family: Icons;
+    content: "\e0dc";
+    color: rgb(211, 1, 1);
+  }
+#settingsMenu {
+    background-color: rgba(214,218,240,0.98);
+}
+.spoiler:hover {
+    color: #000;
+    background: none;
+}
