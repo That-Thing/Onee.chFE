@@ -12,6 +12,7 @@ Add a new line before line 120 in /home/sen/LynxChan/src/be/data/defaultPages.js
 <br>
 "linkArchive": "href", 
 <br>
+<br>
 Change lines 459 and 460 in LynxChan/src/be/engine/domManipulator/static.js to: 
 <br>
     .replace('__linkLogs_href__', '/logs.js?boardUri=' + boardData.boardUri) <br>
