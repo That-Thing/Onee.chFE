@@ -41,3 +41,7 @@
 .contentAction label, .contentAction img {
   display: block;
 }
+.multipleUploads {
+	float: left;
+    width: 100%;	
+}
