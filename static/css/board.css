@@ -22,3 +22,7 @@
 .threadPages a {
   text-decoration: none
 }
+.boardNavigation {
+	margin: 1em;
+    font-size: 10pt;
+}

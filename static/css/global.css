@@ -278,6 +278,18 @@ input[type=button], input[type=submit], button, .dropzone, .selectedCell
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+	font-family: 'vcr';
+	src: url('../vcr.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'VT323';
+	src: url('../VT323.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
 
 @font-face {
   font-family: 'Icons';
@@ -691,12 +703,12 @@ footer {
 }
 
 
-
+/*
 #quick-reply {
   background: #151515;
   
 }
-
+*/
 
 
 /* Yotsuba B Theme for pages other than the board itself. */
@@ -2474,6 +2486,8 @@ outline: none;
 .theme_cyberpunk .frensHeader {
     background-color: #131313;
     border: 1px solid #cc00ff;
+    color: #06d6dd;
+    text-shadow: -2px -1px 0 #d703dc;
 }
 
 
@@ -2481,11 +2495,11 @@ outline: none;
 body.theme_cyberpunk {
     color: #ACACAC;
     background: #000000;
-    font-family: arial,helvetica,sans-serif;
+    font-family: vcr;
     font-size: 100%;
     margin: 0px;
 }
-.theme_cyberpunk #postingForm th, .modalTableBody th {
+.theme_cyberpunk #postingForm th, .theme_cyberpunk .modalTableBody th {
     font-weight: bold;
     text-align: left;
     width: 100px;
@@ -2496,21 +2510,21 @@ body.theme_cyberpunk {
     border-radius: 0pc;
     background-color: #131313;
 }
-.theme_cyberpunk input, select, textarea {
+.theme_cyberpunk input, .theme_cyberpunk select, .theme_cyberpunk textarea {
     border: 0px solid;
     background: #131313;
     color: #ACACAC;
-    font-family: font-family: arial,helvetica,sans-serif;
+    font-family: vcr;
     font-size: 100%;
 }
 
-.theme_cyberpunk input[type=button], input[type=submit], button, .dropzone, .selectedCell {
+.theme_cyberpunk input[type=button], .theme_cyberpunk  input[type=submit], .theme_cyberpunk  button, .theme_cyberpunk .dropzone, .theme_cyberpunk  .selectedCell {
     border: 0px double #07371F;
     border-radius: 0px;
     background: #131313;
     color: #ACACAC;
     padding-left: 0.25em;
-    font-family: font-family: arial,helvetica,sans-serif;
+    font-family: vcr;
     font-size: 80%;
     font-weight: bold;
     margin-top: 0.5em;
@@ -2528,7 +2542,7 @@ body.theme_cyberpunk {
 }
 
 
-.theme_cyberpunk .noEmailName, .noEmailName:hover {
+.theme_cyberpunk .noEmailName, .theme_cyberpunk .noEmailName:hover {
     color: #7c358e;
     text-shadow: none;
 }
@@ -2540,13 +2554,13 @@ body.theme_cyberpunk {
 .theme_cyberpunk .redText {
     font-weight: bold;
     font-size: 125%;
-    font-family: arial,helvetica,sans-serif;;
+    font-family: vcr;
     color: #fff;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
 }
 
 .theme_cyberpunk .boardHeader p {
-    font-family: 'Futura';
+    font-family: vcr;
     color: #fff;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #ff0080, 0 0 30px #ff0080, 0 0 40px #ff0080, 0 0 55px #ff0080, 0 0 75px #ff0080;
 }
@@ -2611,9 +2625,211 @@ body.theme_cyberpunk {
     border: 1px solid #cc00ff;
 }
 
+/*CRT Theme*/
 
 
 
+/*
+body.theme_crt::after {
+content: " ";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: rgba(18, 16, 16, 0.1);
+opacity: 0;
+z-index: 2;
+pointer-events: none;
+animation: flicker 0.15s infinite;
+}
+body.theme_crt::before {
+content: " ";
+display: block;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+z-index: 2;
+background-size: 100% 2px, 3px 100%;
+pointer-events: none;
+}
+body.theme_crt {
+background: radial-gradient(ellipse, #05321e 0%, #050505 90%);
+/*animation: textShadow 1.6s infinite;     This animation causes the entire site to run like shit. It's a shame, it looks cool. 
+font-family: VT323;
+font-size: 20px;
+-webkit-animation: none;
+}  */
+.theme_crt .topBoards a, .theme_crt  #divLatestImages img, .theme_crt  #divLatestPosts .latestPostCell, .theme_crt  .innerPost, .theme_crt  .sideCatalogCell, .theme_crt  .markedPost, .theme_crt  .sideCatalogMarkedCell, .theme_crt  .catalogCell {
+    background-color: #00000063;
+    border: 3px dashed #000000;
+    padding: 2px;
+}
+.theme_crt a {
+    color: #079500;
+    text-decoration: none;
+}
+.theme_crt a:hover {
+    color: #0be300;
+}
+.theme_crt nav {
+    height: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    border: 1px dashed #079500;
+    border-top: none;
+    padding-bottom: 3px;
+    font-size: 70%;
+    text-align: center;
+    z-index: 1;
+}
+.theme_crt .redText {
+    font-weight: bold;
+    font-size: 125%;
+    font-family: VT323;
+    color: #fff;
+    animation: textShadow 1.6s infinite;
+}
+
+.theme_crt .noEmailName, .theme_crt  .noEmailName:hover {
+    color: #458e35;
+    text-shadow: none;
+}
+.theme_crt .labelYou {
+    color: #0bff00;
+    font-style: italic;
+    margin-right: 0.125rem;
+}
+.theme_crt .quoteLink {
+    color: #40ab40;
+}
+.theme_crt .panelBacklinks a {
+    color: #40ab40;
+    text-decoration: none;
+}
+.theme_crt .linkQuote {
+    color: #96ff8c;
+    text-decoration: none;
+}
+.theme_crt .linkQuote:hover {
+color: #83be81;
+}
+.theme_crt .floatingMenu {
+    padding: 0.25em;
+    background: #00000063;
+    border: 3px dashed #000000;
+}
+.theme_crt h3, .theme_crt p, .theme_crt h2, .theme_crt h1 {
+    margin: 0.25em 0;
+    font-family: VT323;
+    color: #fff;
+    animation: textShadow 1.6s infinite;
+}
+.theme_crt #settingsMenu {
+    position: fixed;
+    left: 100px;
+    top: 25px;
+    z-index: 100;
+    background: #00000063;
+    border: 3px dashed #000000;
+}
+.theme_crt input, .theme_crt  textarea {
+    border: 0px solid;
+    background: #00000063;
+    color: #ACACAC;
+    font-family: VT323;
+    font-size: 100%;
+}
+.theme_crt select {
+	background: black;
+}	
+.theme_crt .small a {
+    text-decoration: none;
+    color: white;
+}
+.theme_crt .pinIndicator:after {
+    font-family: Icons;
+    content: "\e0a8";
+    color: #00ff0d;
+}
+.theme_crt .cyclicIndicator:after {
+    font-family: Icons;
+    content: "\e08c";
+    color: #00ff0d;
+}
+.theme_crt #selectedTab {
+    color: #00ff0d;
+}
+.theme_crt #postingForm th, .theme_crt  .modalTableBody th {
+    background-color: #00000063;
+}
+.theme_crt input[type=button], .theme_crt  input[type=submit], .theme_crt  button, .theme_crt  .dropzone, .theme_crt  .selectedCell {
+    background: #00000063;
+}
+.theme_crt #newPostFieldset {
+    border-style: dashed;
+}
+.theme_crt .boardHeader p {
+    font-family: VT323;
+    color: #fff;
+    animation: textShadow 1.6s infinite;
+}
+.theme_crt #favouriteButton:before {
+    font-family: Icons;
+    content: "\e0c2";
+    margin-left: 0.5em;
+    cursor: pointer;
+    color: #fff;
+    animation: textShadow 1.6s infinite;
+}
+.theme_crt .quoteLink.you:after {
+    color: #40ab40;
+}
+.theme_crt .coloredIcon {
+    color: #079500;
+    cursor: pointer;
+}
+.theme_crt .floatingMenu, .theme_crt  #quick-reply table {
+background: #00000063;
+border: 3px dashed #000000;
+}
+.theme_crt footer {
+font-size: small!important;
+}
+.theme_crt .frensHeader {
+background-color: #00000063;
+border-bottom: 3px dashed black;
+border-top: 3px dashed black;
+}
+.theme_crt .frensBox {
+margin-bottom: 16px;
+vertical-align: middle;
+width: 500px;
+background-color: #00000063;
+border: 3px;
+border-style: dashed;
+border-top: none;
+border-left: 3px dashed;
+border-right: 3px dashed;
+border-color: black;
+text-align: center;
+margin: auto;
+}
+.theme_crt #linkBoard {
+animation: textShadow 1.6s infinite;
+}
+.theme_crt hr {
+    height: 0px;
+    border-width: 3px medium medium;
+    border-style: dashed none none;
+    border-color: #ffffff;
+}
 
 
 

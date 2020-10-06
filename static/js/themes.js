@@ -34,6 +34,10 @@ themes.init = function() {
     file : 'chanpink.css',
     label : 'Chanpink',
     id : 'chanpink'
+  }, {
+    file : 'crt.css',
+    label : 'CRT',
+    id : 'crt'	
   }];
 
   for (var i = 0; i < themes.themes.length; i++) {
