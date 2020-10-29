@@ -1,0 +1,108 @@
+body {
+    color: #ACACAC;
+    background-color: #1e2327;
+}
+.topBoards a, #divLatestImages img, #divLatestPosts .latestPostCell, .innerPost, .sideCatalogCell, .markedPost, .sideCatalogMarkedCell, .catalogCell {
+    padding: 5px;
+    background: #2a3137;
+    box-shadow: 3px 5px 10px rgb(0 0 0 / 33%);
+    border-radius: 5px;
+	border: none;
+}
+nav {
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #131618e0;
+    font-size: 80%;
+}
+hr {
+    border-color: #79867c1f;
+}
+input, select, textarea {
+    border: 0px solid;
+    background: #32393f;
+}
+#postingForm th, .modalTableBody th {
+    background-color: #32393f;
+}
+#settingsMenu {
+    background-color: #131618e0;
+    border-radius: 5px;
+	box-shadow: 3px 5px 10px rgb(0 0 0 / 33%);
+}
+.floatingMenu, #quick-reply table {
+    background: #131618e0;
+    border-radius: 5px;
+	box-shadow: 3px 5px 10px rgb(0 0 0 / 33%);
+}
+::-webkit-scrollbar {
+    width: 15px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background: #2a2b2d;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #3e4043;
+}
+::-webkit-scrollbar-track {
+    background: #15171a;
+}
+.frensHeader {
+    background-color: #131618e0;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.frensBox {
+    background-color: #2a3137;
+    border-radius: 5px;
+    border: none;
+}
+a {
+    color: #81be84;
+}
+a:hover {
+    color: #5b8c5d;
+}
+.coloredIcon {
+    color: #81be84;
+}
+.checkedFavouriteButton:before {
+    color: #81be84;
+}
+input[type=checkbox].postingCheckbox+label:before {
+    color: #81be84;
+}
+.panelBacklinks a {
+    color: #81be84;
+}
+.quoteLink {
+    color: #81be84;
+}
+.linkQuote:hover {
+    color: #81be84;
+}
+.linkSelf:hover {
+    color: #81be84;
+}
+#selectedTab {
+    color: #81be84;
+}
+.quoteLink.you:after {
+    color: #5b8c5d;
+}
+@media only screen and (max-width: 812px) {
+	#navOptionsSpan {
+		float: none;
+	}
+	nav {
+		font-size: 120%;
+	}	
+}
+
+/*Theme by sen. 
+sen@onee.ch
+https://onee.ch
+*/

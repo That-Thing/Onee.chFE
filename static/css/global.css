@@ -396,17 +396,6 @@ nav span, nav a {
   padding: 0 0.25em;
 }
 
-a.rules:after {
-  font-family: Icons;
-  content: "\e052";
-  margin-right: 0.5em;
-  color: #117743;
-  height: 80%;
-  font-size: 80%;
-  padding-left: 0.25em;
-  vertical-align: middle;
-}
-
 /* markdown */
 .greenText {
   color: #789922;
@@ -2831,7 +2820,111 @@ animation: textShadow 1.6s infinite;
     border-color: #ffffff;
 }
 
+/*Mint Theme*/
 
+body.theme_mint {
+    color: #ACACAC;
+    background-color: #1e2327;
+}
+.theme_mint .topBoards a, .theme_mint #divLatestImages img, .theme_mint #divLatestPosts .latestPostCell, .theme_mint .innerPost, .theme_mint .sideCatalogCell, .theme_mint .markedPost, .theme_mint .sideCatalogMarkedCell, .theme_mint .catalogCell {
+    padding: 5px;
+    background: #2a3137;
+    box-shadow: 3px 5px 10px rgb(0 0 0 / 33%);
+    border-radius: 5px;
+	border: none;
+}
+.theme_mint nav {
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #131618e0;
+    font-size: 80%;
+}
+.theme_mint hr {
+    border-color: #79867c1f;
+}
+.theme_mint input, .theme_mint select, .theme_mint textarea {
+    border: 0px solid;
+    background: #32393f;
+}
+.theme_mint #postingForm th, .theme_mint .modalTableBody th {
+    background-color: #32393f;
+}
+.theme_mint #settingsMenu {
+    background-color: #131618e0;
+    border-radius: 5px;
+	box-shadow: 3px 5px 10px rgb(0 0 0 / 33%);
+}
+.theme_mint .floatingMenu, .theme_mint #quick-reply table {
+    background: #131618e0;
+    border-radius: 5px;
+	box-shadow: 3px 5px 10px rgb(0 0 0 / 33%);
+}
+.theme_mint ::-webkit-scrollbar {
+    width: 15px;
+    height: 7px;
+}
+.theme_mint ::-webkit-scrollbar-thumb {
+    background: #2a2b2d;
+}
+.theme_mint ::-webkit-scrollbar-thumb:hover {
+    background: #3e4043;
+}
+.theme_mint ::-webkit-scrollbar-track {
+    background: #15171a;
+}
+.theme_mint .frensHeader {
+    background-color: #131618e0;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.theme_mint .frensBox {
+    background-color: #2a3137;
+    border-radius: 5px;
+    border: none;
+}
+.theme_mint a {
+    color: #81be84;
+}
+.theme_mint a:hover {
+    color: #5b8c5d;
+}
+.theme_mint .coloredIcon {
+    color: #81be84;
+}
+.theme_mint .checkedFavouriteButton:before {
+    color: #81be84;
+}
+.theme_mint input[type=checkbox].postingCheckbox+label:before {
+    color: #81be84;
+}
+.theme_mint .panelBacklinks a {
+    color: #81be84;
+}
+.theme_mint .quoteLink {
+    color: #81be84;
+}
+.theme_mint .linkQuote:hover {
+    color: #81be84;
+}
+.theme_mint .linkSelf:hover {
+    color: #81be84;
+}
+.theme_mint #selectedTab {
+    color: #81be84;
+}
+.theme_mint .quoteLink.you:after {
+    color: #5b8c5d;
+}
+@media only screen and (max-width: 812px) {
+	.theme_mint #navOptionsSpan {
+		float: none;
+	}
+	.theme_mint nav {
+		font-size: 120%;
+	}	
+}
 
 
 

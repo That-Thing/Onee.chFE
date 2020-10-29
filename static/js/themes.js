@@ -15,6 +15,10 @@ themes.init = function() {
     label : 'Yotsuba C',
     id : 'yotsubac'
   }, {
+    file : 'mint.css',
+    label : 'Mint',
+    id : 'mint'
+  }, {
     file : 'meguca.css',
     label : 'Meguca Muwaru',
     id : 'meguca'
