@@ -2920,16 +2920,12 @@ body.theme_mint {
 .theme_mint .quoteLink.you:after {
     color: #5b8c5d;
 }
-/* Site should look a little better on mobile for all themes so this bit of css here is not needed. 
 @media only screen and (max-width: 812px) {
-	.theme_mint #navOptionsSpan {
-		float: none;
-	}
-	.theme_mint nav {
-		font-size: 120%;
-	}	
+  .theme_mint nav {
+    padding-top: 5px!important;
+	padding-bottom: 5px!important;
+  }
 }
-*/
 
 
 
