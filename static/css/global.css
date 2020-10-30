@@ -619,8 +619,8 @@ footer {
     content: '';
   }
   nav {
-    font-size: 105%;
-    height: auto;
+    font-size: 105%!important;
+    height: auto!important;
     padding: 2px 2px;
   }
   #navOptionsSpan {
