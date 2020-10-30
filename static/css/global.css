@@ -619,9 +619,12 @@ footer {
     content: '';
   }
   nav {
-    font-size: 70%;
+    font-size: 105%;
     height: auto;
     padding: 2px 2px;
+  }
+  #navOptionsSpan {
+    float: none;
   }
   /*Shit hidden in a board/thread*/
   #quick-reply {
@@ -2917,6 +2920,7 @@ body.theme_mint {
 .theme_mint .quoteLink.you:after {
     color: #5b8c5d;
 }
+/* Site should look a little better on mobile for all themes so this bit of css here is not needed. 
 @media only screen and (max-width: 812px) {
 	.theme_mint #navOptionsSpan {
 		float: none;
@@ -2925,6 +2929,7 @@ body.theme_mint {
 		font-size: 120%;
 	}	
 }
+*/
 
 
 
