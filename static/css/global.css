@@ -2909,10 +2909,10 @@ body.theme_mint {
     color: #81be84;
 }
 .theme_mint .linkQuote:hover {
-    color: #81be84;
+  color: #5b8c5d;
 }
 .theme_mint .linkSelf:hover {
-    color: #81be84;
+  color: #5b8c5d;
 }
 .theme_mint #selectedTab {
     color: #81be84;
@@ -2920,6 +2920,10 @@ body.theme_mint {
 .theme_mint .quoteLink.you:after {
     color: #5b8c5d;
 }
+.theme_mint .noEmailName, .theme_mint .noEmailName:hover {
+  color: #81be84;
+}
+
 @media only screen and (max-width: 812px) {
   .theme_mint nav {
     padding-top: 5px!important;

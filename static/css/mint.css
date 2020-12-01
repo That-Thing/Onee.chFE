@@ -82,10 +82,10 @@ input[type=checkbox].postingCheckbox+label:before {
     color: #81be84;
 }
 .linkQuote:hover {
-    color: #81be84;
+    color: #5b8c5d;
 }
 .linkSelf:hover {
-    color: #81be84;
+    color: #5b8c5d;
 }
 #selectedTab {
     color: #81be84;
@@ -100,6 +100,9 @@ input[type=checkbox].postingCheckbox+label:before {
 	nav {
 		font-size: 120%;
 	}	
+}
+.noEmailName, .noEmailName:hover {
+    color: #81be84;
 }
 
 /*Theme by sen. 
