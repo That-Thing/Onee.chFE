@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8" />
+<meta property="og:site_name" content="Onee Chan">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://onee.ch/.static/logo.png">
 <meta
@@ -205,6 +206,12 @@
   var link = document.createElement('meta');
   link.setAttribute('property', 'og:description');
   link.content = document.getElementById("labelDescription").innerHTML;
+  document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+<script>
+  var link = document.createElement('meta');
+  link.setAttribute('property', 'og:url');
+  link.content = window.location.href;
   document.getElementsByTagName('head')[0].appendChild(link);
 </script>
 </html>
