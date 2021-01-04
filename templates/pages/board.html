@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta property="og:site_name" content="Onee Chan">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://onee.ch/.static/logo.png">
+<meta property="og:image" content="../.static/logo.png">
 <meta
   name="viewport"
   content="width=device-width, initial-scale=1.0">
@@ -123,7 +123,7 @@
         [<a href="catalog.html">Catalog</a>]
       </span>
       <span>
-        [<a id="linkArchive" href="#">Archive</a>]
+        [<a id="linkBoardArchive" href="#">Archive</a>]
       </span>
       <span>
         [<a href="#footer">Bottom</a>]
@@ -166,13 +166,13 @@
   </div>
     <footer id="footer">Any post made by a user is the responsibility of that user.</a>
       <div id="footer-links">
-        <a href="https://onee.ch/.static/pages/about.html" target="_blank">About</a>
+        <a href="../.static/pages/about.html" target="_blank">About</a>
           •  
-        <a href="https://onee.ch/.static/pages/contact.html" target="_blank">Contact</a>
+        <a href="../.static/pages/contact.html" target="_blank">Contact</a>
           •  
-        <a href="https://onee.ch/logs.js" target="_blank">Global Logs</a>
+        <a id='linkBoardLogs' href="#" target="_blank">Logs</a>
           •  
-        <a href="https://onee.ch/archives.js" target="_blank">Archive</a>
+        <a id='linkBoardArchive1' href="#" target="_blank">Archive</a>
       </div>
     </footer>
 </body>
@@ -213,5 +213,10 @@
   link.setAttribute('property', 'og:url');
   link.content = window.location.href;
   document.getElementsByTagName('head')[0].appendChild(link);
+</script>
+<script>
+  document.getElementById("linkBoardArchive").href = "../archives.js?boardUri=" + api.boardUri
+  document.getElementById("linkBoardArchive1").href = "../archives.js?boardUri=" + api.boardUri
+  document.getElementById("linkBoardLogs").href = "../logs.js?boardUri=" + api.boardUri
 </script>
 </html>
