@@ -7,7 +7,11 @@ body {
     background: #2a3137;
     box-shadow: 3px 5px 10px rgb(0 0 0 / 33%);
     border-radius: 5px;
-	border: none;
+    border: none;
+    transition: transform .3s;
+}
+.latestPostCell:hover {
+    transform: scale(1.1);
 }
 nav {
     height: auto;
