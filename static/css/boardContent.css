@@ -64,20 +64,10 @@
   margin: 1em auto;
 }
 
-#postingForm input:focus, #postingForm textarea:focus,
-  .modalDecorationPanel input[type='text']:focus, #settingsMenu input[type='text']:focus,
-  #settingsMenu textarea:focus {
-  box-shadow: 0px 0px 0px 0px #117743;
-}
-
 #postingForm button, #qrbutton {
   width: 8em;
   margin: 0.5em auto;
   font-size: 125%;
-}
-
-#postingForm button:active {
-  box-shadow: 0px 0px 0px #117743;
 }
 
 #postingForm label {
@@ -97,7 +87,7 @@
   font-size: 10pt;
   cursor: default;
   border-radius: 0pc;
-  background-color: #282A2E;
+  background-color: #32393f;
 }
 
 input[type=checkbox].postingCheckbox {
@@ -108,7 +98,7 @@ input[type=checkbox].postingCheckbox+label:before {
   font-family: Icons;
   content: "\e0db";
   margin-right: 0.5em;
-  color: #81a2be;
+  color: #81be84;
   display: inline-block;
   cursor: pointer;
 }
@@ -167,7 +157,7 @@ input[type=checkbox].postingCheckbox:checked+label:before {
 }
 
 .checkedFavouriteButton:before {
-  color: #81a2be;
+  color: #81be84;
 }
 
 #bannerImage {

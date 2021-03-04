@@ -68,16 +68,16 @@
 }
 
 .linkName:hover {
-  color: #81a2be;
+  color: #81be84;
 }
 
 .noEmailName, .noEmailName:hover {
-  color: #c5c8c6;
+  color: #81be84;
   text-shadow: none;
 }
 
 .quoteLink {
-  color: #5f89ac;
+  color: #81be84;
 }
 
 .linkSelf {
@@ -86,7 +86,7 @@
 }
 
 .linkSelf:hover {
-  color: #81a2be;
+  color: #5b8c5d;
 }
 
 .linkQuote {
@@ -95,7 +95,7 @@
 }
 
 .linkQuote:hover {
-  color: #81a2be;
+  color: #5b8c5d;
 }
 
 .labelSubject {
@@ -186,7 +186,7 @@
 }
 
 .panelBacklinks a {
-  color: #81a2be;
+  color: #81be84;
   text-decoration: none;
 }
 

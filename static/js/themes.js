@@ -15,9 +15,9 @@ themes.init = function() {
     label : 'Yotsuba C',
     id : 'yotsubac'
   }, {
-    file : 'mint.css',
-    label : 'Mint',
-    id : 'mint'
+    file : 'tomorrow.css',
+    label : 'Tomorrow',
+    id : 'tomorrow'
   }, {
     file : 'meguca.css',
     label : 'Meguca Muwaru',
@@ -90,7 +90,7 @@ themes.init = function() {
     themeSelector.id = 'themeSelector';
 
     var vanillaOption = document.createElement('option');
-    vanillaOption.innerHTML = 'Dark';
+    vanillaOption.innerHTML = 'Default';
     themeSelector.appendChild(vanillaOption);
 
     for (i = 0; i < themes.themes.length; i++) {

@@ -1,0 +1,147 @@
+body {
+    color: #ACACAC;
+    background: #1D1F21;
+}
+.topBoards a, #divLatestImages img, #divLatestPosts .latestPostCell, .innerPost, .sideCatalogCell, .markedPost, .sideCatalogMarkedCell, .catalogCell {
+    padding: 2px;
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: #282A2E;
+    border: 1px solid #353535;
+    border-left: none;
+    border-top: none;
+}
+.latestPostCell:hover {
+    transform: scale(1.1);
+}
+nav {
+    height: 20px;
+    position: fixed;
+    top: 0;
+    padding-top: 5px;
+    width: 100%;
+    background-color: #151515;
+    padding-bottom: 3px;
+    font-size: 70%;
+    text-align: center;
+    z-index: 1;
+}
+hr {
+    border-color: #282a2e;
+}
+input, select, textarea {
+    border: 0px solid;
+    background: #282A2E;
+}
+#postingForm th, .modalTableBody th {
+    background-color: #282A2E;
+}
+#settingsMenu {
+    background-color: #151515;
+    border-radius: 0px;
+	box-shadow: none;
+}
+.floatingMenu, #quick-reply table {
+    background: #151515;
+    border-radius: 0px;
+	box-shadow: none;
+}
+::-webkit-scrollbar {
+    width: 15px;
+    height: 7px;
+}
+.frensHeader {
+    background-color: #151515;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.frensBox {
+    margin-bottom: 16px;
+    vertical-align: middle;
+    width: 500px;
+    background-color: #282a2e;
+    border: 1px;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #353535;
+    text-align: center;
+    margin: auto;
+}
+a {
+    color: #81A2BE;
+    text-decoration: none;
+}  
+a:hover {
+    color: #5f89ac;
+}
+.coloredIcon {
+    color: #5f89ac;
+}
+.checkedFavouriteButton:before {
+    color: #5f89ac;
+}
+input[type=checkbox].postingCheckbox+label:before {
+    color: #5f89ac;
+}
+.panelBacklinks a {
+    color: #5f89ac;
+}
+.quoteLink {
+    color: #5f89ac;
+}
+.linkQuote:hover {
+    color: #5f89ac;
+}
+.linkSelf {
+    color: #ACACAC;
+    text-decoration: none;
+}
+.linkSelf:hover {
+    color: #5f89ac;
+}
+.quoteLink {
+    color: #5f89ac;
+}
+  
+.linkSelf {
+    color: #ACACAC;
+    text-decoration: none;
+}
+  
+.linkSelf:hover {
+    color: #81a2be;
+}
+  
+.linkQuote {
+    color: #ACACAC;
+    text-decoration: none;
+}
+  
+.linkQuote:hover {
+    color: #81a2be;
+}
+#selectedTab {
+    color: #5f89ac;
+}
+.quoteLink.you:after {
+    color: #5f89ac;
+}
+@media only screen and (max-width: 812px) {
+	#navOptionsSpan {
+		float: none;
+	}
+	nav {
+		font-size: 120%;
+	}	
+}
+.noEmailName, .noEmailName:hover {
+    color: #5f89ac;
+}
+
+/*Theme by sen. 
+sen@onee.ch
+https://onee.ch
+*/
