@@ -1084,7 +1084,7 @@ body.theme_yotsuba {
   color: #000
 }
 .theme_yotsuba .quoteLink {
-    color: navy;
+    color: navy!important;
 }
 .theme_yotsuba input[type=button], .theme_yotsuba input[type=submit], .theme_yotsuba button, .theme_yotsuba .dropzone, .theme_yotsuba .selectedCell {
   border: 0px double #D6DAF0;
