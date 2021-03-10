@@ -73,7 +73,7 @@ input, select, textarea {
     border-radius: 1px;
     background: #ffffff;
     color: #7d7d7d;
-    font-family: font-family: arial,helvetica,sans-serif;
+    font-family: arial,helvetica,sans-serif;
     font-size: 80%;
 }
 
@@ -96,7 +96,7 @@ input[type=button], input[type=submit], button, .dropzone, .selectedCell {
     background: #d0d0d0;
     color: #000000;
     padding-left: 0.25em;
-    font-family: font-family: arial,helvetica,sans-serif;
+    font-family: arial,helvetica,sans-serif;
     font-size: 80%;
     font-weight: bold;
     margin-top: 0.5em;
@@ -143,15 +143,6 @@ nav {
 }
 
 
-
-
-
-
-
-
-
-
-
 body {
     color:#800000;
     margin: 0px;
@@ -190,10 +181,6 @@ nav {
     cursor: pointer;
     background: #F0E0D6;
 }
-
-#newPostFieldset, #quick-reply table, .modalDecorationPanel, .floatingMenu, #settingsFieldset, .reportFieldset {
-    
-}
 .floatingMenu, #quick-reply table {
     background: #F0E0D6;
 }
@@ -214,16 +201,16 @@ input, select, textarea {
     border-radius: 0px;
     background: #ffffff;
     color: #7d7d7d;
-    font-family: font-family: arial,helvetica,sans-serif;
+    font-family: arial,helvetica,sans-serif;
     font-size: 80%;
 }
 
 .linkQuote {
-    color: #00e;
+    color: #800000;
     text-decoration: none;
 }
 .linkSelf {
-    color: #00e;
+    color: #800000;
     text-decoration: none;
 }
 
@@ -234,17 +221,21 @@ input, select, textarea {
 .noEmailName:hover, .noEmailName {
     color: #117743;
     text-shadow: none;
-  } 
-  .labelRole {
+    font-weight: bold;
+}
+.postInfo {
+    font-weight: normal;
+}
+.labelRole {
     color: #bd0707;
-  }
+}
   
-  .labelRole:before {
+.labelRole:before {
     font-family: Icons;
     content: "\e0dc";
     color: rgb(211, 1, 1);
-  }
-  #settingsMenu {
+}
+#settingsMenu {
     background-color: #F0E0D6;
 }
 .spoiler:hover {

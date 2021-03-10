@@ -17,11 +17,6 @@
     font-size:80%;
   }
 }
-
-/* html, body {
-
-} */
-
 div#federationBox {
     background-color: #d6f0d9;
     text-align: center;
@@ -89,7 +84,7 @@ input, select, textarea {
     border-radius: 0px;
     background: #ffffff;
     color: #7d7d7d;
-    font-family: font-family: arial,helvetica,sans-serif;
+    font-family: arial,helvetica,sans-serif;
     font-size: 80%;
 }
 
@@ -112,7 +107,7 @@ input[type=button], input[type=submit], button, .dropzone, .selectedCell {
     background: #d0d0d0;
     color: #000000;
     padding-left: 0.25em;
-    font-family: font-family: arial,helvetica,sans-serif;
+    font-family: arial,helvetica,sans-serif;
     font-size: 80%;
     font-weight: bold;
     margin-top: 0.5em;
@@ -192,20 +187,6 @@ a {
     color: #00e;
     text-decoration: none;
 }
-
-/* nav {
-    height: 18px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #d6f0d6;
-    border-bottom: 1px solid #d6f0d6;
-    padding-bottom: 3px;
-    font-size: 70%;
-    text-align: center;
-    z-index: 1;
-} */
-
 #existingFiltersPanel {
     overflow: hidden;
     overflow-y: auto;
@@ -217,16 +198,11 @@ a {
     cursor: pointer;
     background: rgba(215, 240, 214, 0.98);
 }
-
-#newPostFieldset, #quick-reply table, .modalDecorationPanel, .floatingMenu, #settingsFieldset, .reportFieldset {
-    
-}
 .floatingMenu, #quick-reply table {
     background: rgba(217, 240, 214, 0.98);
 }
 #selectedTab {
     color: #DD0000;
-    /* text-shadow: 0px 0px 5px #117743; */
 }
 
 hr {
@@ -242,16 +218,16 @@ input, select, textarea {
     border-color: rgb(169, 169, 169);
     background: #ffffff;
     color: #000000;
-    font-family: font-family: arial,helvetica,sans-serif;
+    font-family: arial,helvetica,sans-serif;
     font-size: 80%;
 }
 
 .linkQuote {
-    color: #00e;
+    color: black;
     text-decoration: none;
 }
 .linkSelf {
-    color: #00e;
+    color: black;
     text-decoration: none;
 }
 
@@ -263,16 +239,20 @@ input, select, textarea {
 .noEmailName:hover, .noEmailName {
     color: #113077;
     text-shadow: none;
-  } 
-  .labelRole {
+    font-weight: bold;
+}
+.postInfo {
+    font-weight: normal;
+} 
+.labelRole {
     color: #bd0707;
-  }
-  
-  .labelRole:before {
+}
+
+.labelRole:before {
     font-family: Icons;
     content: "\e0dc";
     color: rgb(211, 1, 1);
-  }
+}
 #settingsMenu {
     background-color: rgba(214, 240, 215, 0.98);
 }

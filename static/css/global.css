@@ -746,8 +746,15 @@ transform: scale(1.1);
   color: #363636;
   font-style: italic;
 }
-
-
+.theme_yotsubab .linkQuote {
+  color: #000;
+}
+.theme_yotsubab a:hover {
+  color:#d00!important;
+}
+.theme_yotsubab .postInfo {
+  font-weight: normal;
+}
 
 .theme_yotsubab .frensBox {
     margin-bottom: 16px;
@@ -824,8 +831,9 @@ body.theme_yotsubab {
 }
 
 .theme_yotsubab .noEmailName:hover, .theme_yotsubab .noEmailName {
-  color: #117743;
+  color: #117743!important;
   text-shadow: none;
+  font-weight: bold;
 } 
 
 
@@ -874,6 +882,17 @@ body.theme_yotsubab {
 .theme_yotsubab a, .theme_yotsubab a:visited {
 	color: #34345c;
 }
+.theme_yotsubab .panelBacklinks a {
+  color: #34345c;
+}
+.theme_yotsubab .linkQuote {
+  color: black!important;
+  text-decoration: none;
+}
+.theme_yotsubab .linkSelf {
+  color: black!important;
+  text-decoration: none;
+}
 .theme_yotsubab .unhideButton {
   color: #000
 }
@@ -915,6 +934,9 @@ body.theme_yotsubab {
 /*Theme for Yotsuba normal. */
 /*###########################*/
 
+.theme_yotsuba .postInfo {
+  font-weight: normal;
+}
 .theme_yotsuba .diceDiv::before {
   content: "Rolled ";
   color: #363636;
@@ -1041,8 +1063,22 @@ body.theme_yotsuba {
   color: #800000;
   cursor: pointer;
 }
-.theme_yotsuba a {
+.theme_yotsuba a, a:visited {
 	color:#0000EE;
+}
+.theme_yotsuba .panelBacklinks a {
+  color: #0000EE;
+}
+.theme_yotsuba .linkQuote {
+  color: #800000!important;
+  text-decoration: none;
+}
+.theme_yotsuba .linkSelf {
+  color: #800000!important;
+  text-decoration: none;
+}
+.theme_yotsuba a:hover {
+	color:#d00!important;
 }
 .theme_yotsuba .unhideButton {
   color: #000
@@ -1077,14 +1113,18 @@ body.theme_yotsuba {
   padding: 0.1em 0.25em;
 }
 .theme_yotsuba .noEmailName:hover, .theme_yotsuba .noEmailName {
-  color: #117743;
+  color: #117743!important;
   text-shadow: none;
+  font-weight: bold;
 } 
 
 /*###########################*/
 /*Theme for Yotsuba C */
 /*###########################*/
 
+.theme_yotsubac .postInfo {
+  font-weight: normal;
+}
 .theme_yotsubac .diceDiv::before {
   content: "Rolled ";
   color: #363636;
@@ -1214,8 +1254,22 @@ body.theme_yotsubac {
   color: rgb(52, 92, 54);
   cursor: pointer;
 }
-.theme_yotsubac a {
+.theme_yotsubac a, a:visited {
 	color:#00e;
+}
+.theme_yotsubac a:hover {
+  color: #d00!important;
+}
+.theme_yotsubac .panelBacklinks a {
+  color: #00e;
+}
+.theme_yotsubac .linkQuote {
+  color: black!important;
+  text-decoration: none;
+}
+.theme_yotsubac .linkSelf {
+  color: black!important;
+  text-decoration: none;
 }
 .theme_yotsubac .unhideButton {
   color: #000
@@ -1250,8 +1304,9 @@ body.theme_yotsubac {
   padding: 0.1em 0.25em;
 }
 .theme_yotsubac .noEmailName:hover, .theme_yotsubac .noEmailName {
-  color: #117743;
+  color: #117743!important;
   text-shadow: none;
+  font-weight: bold;
 } 
 
 
