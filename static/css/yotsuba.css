@@ -204,7 +204,9 @@ input, select, textarea {
     font-family: arial,helvetica,sans-serif;
     font-size: 80%;
 }
-
+.quoteLink {
+    color: navy;
+}
 .linkQuote {
     color: #800000;
     text-decoration: none;
