@@ -3007,7 +3007,7 @@ box-shadow: none;
   color: #ACACAC;
   text-decoration: none;
 }
-.theme_tomorrow .innerPost, .theme_tomorrow .markedPost {
+.theme_tomorrow .markedPost {
 background: #222;
 border: 1px solid #111;
 border-radius: 0px;
