@@ -124,31 +124,11 @@ div#ircBox {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
-.topBoards a, #divLatestImages img, #divLatestPosts .latestPostCell,
-  .innerPost, .sideCatalogCell, .markedPost, .sideCatalogMarkedCell,
-  .catalogCell {
-  background-color: #282A2E;
-  border: 1px solid #353535;
-  border-left: none;
-  border-top: none;
-  /* display: table; */
-  padding: 2px;
-}
-.innerPost, .markedPost {
-	background-color: #22282d;
-}
 .floatingMenu, #quick-reply table {
   background: #131618e0;
   border-radius: 5px;
   box-shadow: 3px 5px 10px rgb(0 0 0 / 33%);
 }
-
-.markedPost, .sideCatalogMarkedCell {
-  background: rgba(59, 22, 43, 0.4);
-}
-
-
 .logoImg {
   height: 250px;
 }
@@ -725,10 +705,9 @@ footer {
 transform: scale(1.1);
 }
 .markedPost {
-  background: #1d2226; 
+    background: #1d2226;
+    border: 1px #2a313742 solid;
 }
-
-
 
 
 
