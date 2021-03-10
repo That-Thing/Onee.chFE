@@ -724,6 +724,9 @@ footer {
 .latestPostCell:hover {
 transform: scale(1.1);
 }
+.markedPost {
+  background: #1d2226; 
+}
 
 
 
