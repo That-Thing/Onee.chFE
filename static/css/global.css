@@ -236,10 +236,8 @@ input, select, textarea {
   font-size: 100%;
 }
 
-input[type=button], input[type=submit], button, .dropzone, .selectedCell
-  {
-  border: 0px double #07371F;
-  border-radius: 0px;
+input[type=button], input[type=submit], button, .dropzone, .selectedCell {
+  border: none;
   background: #16171A;
   color: #ACACAC;
   padding-left: 0.25em;
@@ -1452,7 +1450,7 @@ border-radius: 0px;
 .theme_lain .relativeTime {
 color: #555;
 }
-.theme_lain input[type=button], input[type=submit], .theme_lain button, .theme_lain .dropzone, .theme_lain .selectedCell
+.theme_lain input[type=button], .theme_lain input[type=submit], .theme_lain button, .theme_lain .dropzone, .theme_lain .selectedCell
 {
 border: 3px double #111;
 background: #222;
@@ -2429,7 +2427,7 @@ border-radius: 0px;
 .theme_meguca .relativeTime {
 color: #555;
 }
-.theme_meguca input[type=button], input[type=submit], .theme_meguca button, .theme_meguca .dropzone, .theme_meguca .selectedCell
+.theme_meguca input[type=button], .theme_meguca input[type=submit], .theme_meguca button, .theme_meguca .dropzone, .theme_meguca .selectedCell
 {
 border: 3px double #111;
 background: #222;
