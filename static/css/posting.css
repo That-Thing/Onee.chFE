@@ -103,13 +103,13 @@
 }
 
 .labelRole {
-  color: #2aa312;
+  color: #81acbe;
 }
 
 .labelRole:before {
   font-family: Icons;
   content: "\e0dc";
-  color: rgb(0, 199, 10);
+  color: #81acbe;
 }
 
 .divMessage {
